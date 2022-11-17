@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>Octagon Website</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
     <!-- Google Fonts Roboto -->
@@ -20,7 +20,7 @@
         <div class="container-fluid">
           <!-- Navbar brand -->
           <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
-            <strong>MDB</strong>
+            <strong>Octagon</strong>
           </a>
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
             aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +35,11 @@
                 <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
                   target="_blank">Learn Bootstrap 5</a>
               </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+                target="_blank">junisins</a>
+            </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Download MDB UI KIT</a>
               </li>
@@ -177,17 +182,13 @@
             </div>
 
             <div class="col-md-6 gx-5 mb-4">
-              <h4><strong>Facilis consequatur eligendi</strong></h4>
+              <h4><strong>leader</strong></h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
-                eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
-                sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+               junisare silvosa
               </p>
-              <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+              <p><strong>batos batos</strong></p>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
-                nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
-                alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+                Cristian Dela Cruz Montes
               </p>
             </div>
           </div>
