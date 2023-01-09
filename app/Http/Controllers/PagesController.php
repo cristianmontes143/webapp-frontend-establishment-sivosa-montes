@@ -13,7 +13,7 @@ class PagesController extends Controller
      */
     public function index()
     {
-        return view('half-carousel-cover');
+        return view('landing-page.pages.main-landing-page');
     }
 
     /**
