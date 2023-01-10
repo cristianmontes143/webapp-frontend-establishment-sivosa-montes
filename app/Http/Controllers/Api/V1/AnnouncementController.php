@@ -16,9 +16,16 @@ class AnnouncementController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return new AnnouncementCollection(announcement::paginate());
+        $filter = new AnnouncementQuery();
+        $queryItems = $filter->transform($request);
+
+        if (count($queryItems) == 0){  
+            return new AnnouncementCollection(announcement::paginate());
+        }else{
+            return new AnnouncementCollection(announcement::where($queryItems)-> paginate());
+        }
     }
 
     /**
