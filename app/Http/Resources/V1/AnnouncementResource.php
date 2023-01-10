@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Resources;
+namespace App\Http\Resources\V1;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
@@ -16,6 +16,14 @@ class AnnouncementResource extends JsonResource
     {
         return[
         'id' => $this->id,
+        'header' => $this->header,
+        'subheader' => $this->sub_header,
+        'image' => $this->image,
+        'description' => $this->description,
+        'userId' => $this->user_id,
+        'created' => $this->created_at,
+        'updated' => $this->updated_at,
+        
         ];
        // return parent::toArray($request);
     }

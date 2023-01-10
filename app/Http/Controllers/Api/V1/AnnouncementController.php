@@ -6,7 +6,8 @@ use App\Models\Announcement;
 use App\Http\Requests\StoreAnnouncementRequest;
 use App\Http\Requests\UpdateAnnouncementRequest;
 use App\Http\Controllers\Controller;
-use App\Http\Resources\AnnouncementResource;
+use App\Http\Resources\V1\AnnouncementResource;
+use App\Http\Resources\V1\AnnouncementCollection;
 
 class AnnouncementController extends Controller
 {
@@ -17,7 +18,7 @@ class AnnouncementController extends Controller
      */
     public function index()
     {
-        return Announcement::all();
+        return new AnnouncementCollection(announcement::paginate());
     }
 
     /**
@@ -49,7 +50,7 @@ class AnnouncementController extends Controller
      */
     public function show(Announcement $announcement)
     {
-        return new AnnouncementResource($announcement);
+        return $announcement;
     }
 
     /**
