@@ -17,7 +17,7 @@ use App\Http\Controllers\PagesController;
 Route::resource('/', PagesController::class);
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('dashboard.appdashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
