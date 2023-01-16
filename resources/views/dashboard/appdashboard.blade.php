@@ -529,7 +529,7 @@
       <div class="row">
 
         <!-- Left side columns -->
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div class="row">
 
 
@@ -544,23 +544,24 @@
                       <h6>Filter</h6>
                     </li>
 
-                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    {{-- <li><a class="dropdown-item" href="#">Today</a></li>
                     <li><a class="dropdown-item" href="#">This Month</a></li>
-                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li> --}}
                   </ul>
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Recent Sales <span>| Today</span></h5>
+                  <h5 class="card-title">Announcement <span>| Today</span></h5>
 
-                  <table class="table table-borderless datatable">
+                  <table class="table table-borderless datatable ">
                     <thead>
                       <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Customer</th>
-                        <th scope="col">Product</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Status</th>
+                        <th scope="col">header</th>
+                        <th scope="col">sub_header</th>
+                        <th scope="col">image</th>
+                        <th scope="col">description</th>
+                        <th scope="col">user_id</th>
+                        <th scope="col">actions</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -570,6 +571,7 @@
                         <td><a href="#" class="text-primary">At praesentium minu</a></td>
                         <td>$64</td>
                         <td><span class="badge bg-success">Approved</span></td>
+                        <td><button type="button" class="btn btn-success">Update</button> <button type="button" class="btn btn-danger">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#">#2147</a></th>
@@ -577,6 +579,7 @@
                         <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
                         <td>$47</td>
                         <td><span class="badge bg-warning">Pending</span></td>
+                        <td><button type="button" class="btn btn-success">Update</button> <button type="button" class="btn btn-danger">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#">#2049</a></th>
@@ -584,6 +587,7 @@
                         <td><a href="#" class="text-primary">At recusandae consectetur</a></td>
                         <td>$147</td>
                         <td><span class="badge bg-success">Approved</span></td>
+                        <td><button type="button" class="btn btn-success">Update</button> <button type="button" class="btn btn-danger">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#">#2644</a></th>
@@ -591,6 +595,7 @@
                         <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td>
                         <td>$67</td>
                         <td><span class="badge bg-danger">Rejected</span></td>
+                        <td><button type="button" class="btn btn-success">Update</button> <button type="button" class="btn btn-danger">Delete</button></td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#">#2644</a></th>
@@ -598,6 +603,7 @@
                         <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
                         <td>$165</td>
                         <td><span class="badge bg-success">Approved</span></td>
+                        <td><button type="button" class="btn btn-success">Update</button> <button type="button" class="btn btn-danger">Delete</button></td>
                       </tr>
                     </tbody>
                   </table>
