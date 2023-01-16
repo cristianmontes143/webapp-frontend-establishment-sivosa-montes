@@ -6468,6 +6468,7 @@ p {
 
 .header-style-1 .header-big {
   width: 66.67%;
+  height: 50%;
 }
 
 @media (max-width: 767px) {
@@ -6478,24 +6479,24 @@ p {
 
 .header-style-1 .header-big .single-header-item {
   position: relative;
-  height: 760px;
+  height: 380px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-style-1 .header-big .single-header-item {
-    height: 660px;
+    height: 330px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-style-1 .header-big .single-header-item {
-    height: 660px;
+    height: 330px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-style-1 .header-big .single-header-item {
-    height: 600px;
+    height: 300;
   }
 }
 
@@ -6510,6 +6511,7 @@ p {
   bottom: 0;
   left: 0;
   width: 70%;
+  height: 50%;
   padding: 40px;
   background-color: rgba(255, 255, 255, 0.74);
 }
@@ -6535,7 +6537,7 @@ p {
 
 .header-style-1 .header-big .single-header-item .header-item-content .title {
   font-weight: 300;
-  font-size: 44px;
+  font-size: 11px;
   line-height: 55px;
   color: #000;
 }
