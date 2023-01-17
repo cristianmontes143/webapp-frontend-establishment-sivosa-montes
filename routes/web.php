@@ -18,16 +18,14 @@ use App\Http\Controllers\PagesController;
 Route::resource('/', PagesController::class);
 
 Route::get('/dashboard', function () {
-    return view('dashboard.appdashboard');
+    return view('dashboard.pages.main-dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-// Route::get('/announcement', [AnnouncementController::class, 'index'])->Route::middleware(['auth', 'verified'])->name(announcement);
-    
+//  Route::get('/announcement', [AnnouncementController::class, 'index'])->Route::middleware(['auth', 'verified'])->name(announcement);
 
 
-// Route:get('/announ', function(){
-//     return view('dashboard.AnnouncementController');
-// });
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
