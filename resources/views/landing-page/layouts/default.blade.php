@@ -80,6 +80,7 @@
 
     <!--====== Main js ======-->
     <script src="{{asset('landing-page-asset/Js/main.js')}}"></script>
+    <script src="{{asset('landing-page-asset/Js/custom.js')}}"></script>
 
 
 </body>
