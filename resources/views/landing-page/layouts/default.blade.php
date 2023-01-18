@@ -18,7 +18,11 @@
     
         <!--====== Slick CSS ======-->
         <link rel="stylesheet" href="{{asset('landing-page-asset/Css/slick.css')}}">
-    
+
+        <!--====== Owl Carousel CSS =====-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        
         <!--====== Line Icons CSS ======-->
         <link rel="stylesheet" href="{{asset('landing-page-asset/Css/LineIcons.css')}}">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -52,6 +56,9 @@
 
     <!--====== Slick js ======-->
     <script src="{{asset('landing-page-asset/Js/slick.min.js')}}"></script>
+
+    <!--====== Owl js ======-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!--====== Accordion Steps Form js ======-->
     <script src="{{asset('landing-page-asset/Js/jquery-vj-accordion-steps.js')}}"></script>
