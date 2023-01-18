@@ -8,6 +8,8 @@ use App\Http\Requests\UpdateAnnouncementRequest;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\V1\AnnouncementResource;
 use App\Http\Resources\V1\AnnouncementCollection;
+use Illuminate\Http\Request;
+    
 
 class AnnouncementController extends Controller
 {
@@ -18,16 +20,10 @@ class AnnouncementController extends Controller
      */
     public function index(Request $request)
     {
-        $filter = new AnnouncementQuery();
-        $queryItems = $filter->transform($request);
-
-        if (count($queryItems) == 0){  
-            return new AnnouncementCollection(announcement::paginate());
-        }else{
-            return new AnnouncementCollection(announcement::where($queryItems)-> paginate());
-        }
+  
+         return new AnnouncementCollection(announcement::paginate());
+      
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -35,7 +31,7 @@ class AnnouncementController extends Controller
      */
     public function create()
     {
-        //
+        return view('announcement.create');
     }
 
     /**
@@ -46,7 +42,9 @@ class AnnouncementController extends Controller
      */
     public function store(StoreAnnouncementRequest $request)
     {
-        //
+        
+        return new AnnoucementResource(Announcement::create($request->all()));
+
     }
 
     /**

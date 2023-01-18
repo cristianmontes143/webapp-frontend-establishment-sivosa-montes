@@ -1,8 +1,9 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +15,25 @@ use App\Http\Controllers\PagesController;
 |
 */
 
-
-
-
 Route::resource('/', PagesController::class);
+
+Route::get('/dashboard', function () {
+    return view('dashboard.pages.main-dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+//  Route::get('/announcement', [AnnouncementController::class, 'index'])->Route::middleware(['auth', 'verified'])->name(announcement);
+
+
+
+
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+Route::get('/register', function(){
+    return view('dashboard.appregister');
+});
+require __DIR__.'/auth.php';
