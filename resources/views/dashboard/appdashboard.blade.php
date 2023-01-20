@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Announcement <span>| Today</span></h5>
+                  <h6 class="card-title">Users</h6>
 
                   <table class="table table-borderless datatable ">
                     <thead>
@@ -140,7 +140,7 @@
                 </div>
 
               </div>
-            </div><!-- End Recent Sales -->
+            </div><!-- End of users -->
 
             <!-- Top Selling -->
             <div class="col-12">
@@ -178,28 +178,28 @@
                         <td><a href="#" class="text-primary fw-bold">Cellphone</a></td>
                         <td>$64</td>
                         <td class="fw-bold">124</td>
-                        <td>$5,828</td>
+                        <td>$7,936</td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-2.jpg" alt=""></a></th>
                         <td><a href="#" class="text-primary fw-bold">Laptop</a></td>
-                        <td>$46</td>
+                        <td>$534</td>
                         <td class="fw-bold">98</td>
-                        <td>$4,508</td>
+                        <td>$52,332</td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-3.jpg" alt=""></a></th>
                         <td><a href="#" class="text-primary fw-bold">Printer</a></td>
-                        <td>$59</td>
+                        <td>$243</td>
                         <td class="fw-bold">74</td>
-                        <td>$4,366</td>
+                        <td>$17,982</td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-4.jpg" alt=""></a></th>
                         <td><a href="#" class="text-primary fw-bold">Tablet</a></td>
-                        <td>$32</td>
+                        <td>$89</td>
                         <td class="fw-bold">63</td>
-                        <td>$2,016</td>
+                        <td>$5,607</td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-5.jpg" alt=""></a></th>
