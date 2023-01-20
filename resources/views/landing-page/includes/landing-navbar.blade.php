@@ -73,7 +73,7 @@
                                         </select>
                                     </li>
                                     <li>
-                                        <button type="button" class="btn btn-warning">Login</button>
+                                        <button type="button" class="btn btn-warning" ><a href="{{ asset('login')}}">Login</a></button>
                                     </li>
                                 </ul>
                             </div>

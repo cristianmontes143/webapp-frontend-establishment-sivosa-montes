@@ -59,6 +59,7 @@
                 <div class="card-body">
 
                   <div class="pt-4 pb-2">
+                    <div class="exit position-absolute top-0 end-0 pe-3 pt-3 fs-3"><a href=" {{asset('http://webapp-frontend-establishment-sivosa-montes.test/#')}} " class="x"><i class="bi bi-x-octagon"></i></a></div>
                     <h5 class="card-title text-center pb-0 fs-4">Login to Your Octagon Account</h5>
                     <p class="text-center small">Enter your username & password to login</p>
                   </div>
@@ -88,6 +89,7 @@
                     </div>
                     <div class="col-12">
                       <button class="btn btn-primary w-100" type="submit">Login</button>
+                      
                     </div>
                     <div class="col-12">
                       <p class="small mb-0">Don't have account? <a href="pages-register.html">Create an account</a></p>
