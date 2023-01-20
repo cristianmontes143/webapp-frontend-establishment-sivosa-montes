@@ -1,6 +1,9 @@
     <!--====== Preloader Part Start ======-->
     <div class="preloader">
         <div class="loader">
+            <div class="logo">
+                <img src="{{asset('landing-page-asset/Logo_L_vector.png')}}" alt="">
+            </div>
             <div class="ytp-spinner">
                 <div class="ytp-spinner-container">
                     <div class="ytp-spinner-rotator">

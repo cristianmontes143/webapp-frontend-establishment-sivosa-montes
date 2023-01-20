@@ -6,7 +6,6 @@
             <div class="col">
                 <div class="single-content mt-15 text-center">
                     <div class="content-icon">
-                        {{-- <i class="mdi mdi-truck-fast"></i> --}}
                         <div class="content-content">
                             <h4 class="title"><a href="javascript:void(0)">Gaming</a></h4>
                         </div>
@@ -90,7 +89,7 @@
 <!--====== Content Card Style 4 Part Ends ======-->
 
 <!--====== Product Style 7 Part Start ======-->
-<section class="product-wrapper pt-100 pb-100">
+<section class="product-wrapper pt-100 pb-50">
     <div class="container container-fluid">
         <div class="row">
             <div class="col-lg-12">
