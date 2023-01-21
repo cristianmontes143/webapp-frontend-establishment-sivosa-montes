@@ -10,6 +10,7 @@
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
+  background-color: #828282;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #d40032;
   text-decoration: none;
 }
 
@@ -44,6 +45,8 @@ h6 {
   margin-top: 60px;
   padding: 20px 30px;
   transition: all 0.3s;
+  background-color: #828282;
+  background-size: cover;
 }
 
 @media (max-width: 1199px) {
@@ -63,7 +66,7 @@ h6 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
-  color: #012970;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -76,7 +79,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #d40032;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -246,8 +249,19 @@ h6 {
   margin-bottom: 30px;
   border: none;
   border-radius: 5px;
+  background-color: #ff0000;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.table {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
   background-color: rgba(255, 238, 0, 0.796);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+.top-selling-table{
+  padding-top: 20px;
 }
 
 /* .login-card{
@@ -266,7 +280,7 @@ h6 {
   padding: 20px 0 15px 0;
   font-size: 18px;
   font-weight: 500;
-  color: #012970;
+  color: #000000;
   opacity: 1 !important;
   font-family: "Poppins", sans-serif;
 }
@@ -282,9 +296,14 @@ h6 {
   
 }
 
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap");
 .text-field-login{
+
   text-decoration: solid;
   opacity: 1 !important;
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .card-img-overlay {
@@ -331,7 +350,7 @@ h6 {
 
 .accordion-flush .accordion-button:not(.collapsed) {
   box-shadow: none;
-  color: #4154f1;
+  color: #d40032;
 }
 
 .accordion-flush .accordion-body {
@@ -349,12 +368,12 @@ h6 {
 }
 
 .breadcrumb a {
-  color: #899bbd;
+  color: #000000;
   transition: 0.3s;
 }
 
 .breadcrumb a:hover {
-  color: #51678f;
+  color: #51678f;   
 }
 
 .breadcrumb .breadcrumb-item::before {
@@ -362,7 +381,7 @@ h6 {
 }
 
 .breadcrumb .active {
-  color: #51678f;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -379,13 +398,13 @@ h6 {
 
 .nav-tabs-bordered .nav-link:hover,
 .nav-tabs-bordered .nav-link:focus {
-  color: #4154f1;
+  color: #d40032;
 }
 
 .nav-tabs-bordered .nav-link.active {
   background-color: #fff;
-  color: #4154f1;
-  border-bottom: 2px solid #4154f1;
+  color: #d40032;
+  border-bottom: 2px solid #d40032;
 }
 
 /*--------------------------------------------------------------
@@ -402,7 +421,7 @@ h6 {
 }
 
 .logo img {
-  max-height: 26px;
+  max-width: 100%;
   margin-right: 6px;
 }
 
@@ -418,7 +437,8 @@ h6 {
   z-index: 997;
   height: 60px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-image: url("../img/header_image.png");
+  background-size: cover;
   padding-left: 20px;
   /* Toggle Sidebar Button */
   /* Search Bar */
@@ -428,7 +448,7 @@ h6 {
   font-size: 32px;
   padding-left: 10px;
   cursor: pointer;
-  color: #012970;
+  color: #e7ff0c;
 }
 
 .header .search-bar {
@@ -465,8 +485,8 @@ h6 {
 .header .search-form input {
   border: 0;
   font-size: 14px;
-  color: #012970;
-  border: 1px solid rgba(1, 41, 112, 0.2);
+  color: #000000;
+  border: 1px solid rgb(255, 221, 0);
   padding: 7px 38px 7px 8px;
   border-radius: 3px;
   transition: 0.3s;
@@ -488,7 +508,7 @@ h6 {
 }
 
 .header .search-form button i {
-  color: #012970;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -505,7 +525,7 @@ h6 {
 
 .header-nav .nav-icon {
   font-size: 22px;
-  color: #012970;
+  color: #fbf704;
   margin-right: 25px;
   position: relative;
 }
@@ -645,9 +665,11 @@ h6 {
   padding: 20px;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #aab7cf transparent;
+  scrollbar-color: #cdcfaa transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-image: url("../img/header_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 1199px) {
@@ -709,11 +731,12 @@ h6 {
 }
 
 .sidebar-nav .nav-heading {
-  font-size: 11px;
+  font-size: 20px;
   text-transform: uppercase;
-  color: #899bbd;
+  color: #ffffff;
   font-weight: 600;
   margin: 10px 0 5px 15px;
+  padding-top: 10px;
 }
 
 .sidebar-nav .nav-link {
@@ -721,22 +744,22 @@ h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #4154f1;
+  color: #000000;
   transition: 0.3;
-  background: #f6f9ff;
-  padding: 10px 15px;
-  border-radius: 4px;
+  background: #eeff00;
+  padding: 10px 13px;
+  border-radius: 18px;
 }
 
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: #f14141;
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: #012970;
-  background: #fff;
+  color: #000000;
+  background: rgb(255, 251, 0);
 }
 
 .sidebar-nav .nav-link.collapsed i {
@@ -744,12 +767,13 @@ h6 {
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
+  color: #d40032;
   background: #f6f9ff;
+  padding: 20px;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #d40032;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -787,11 +811,11 @@ h6 {
 
 .sidebar-nav .nav-content a:hover,
 .sidebar-nav .nav-content a.active {
-  color: #4154f1;
+  color: #d40032;
 }
 
 .sidebar-nav .nav-content a.active i {
-  background-color: #4154f1;
+  background-color: #d40032;
 }
 
 /*--------------------------------------------------------------
@@ -814,7 +838,7 @@ h6 {
 
 .dashboard .filter .icon:hover,
 .dashboard .filter .icon:focus {
-  color: #4154f1;
+  color: #d40032;
 }
 
 .dashboard .filter .dropdown-header {
@@ -858,7 +882,7 @@ h6 {
 }
 
 .dashboard .sales-card .card-icon {
-  color: #4154f1;
+  color: #d40032;
   background: #f6f6fe;
 }
 
@@ -943,7 +967,7 @@ h6 {
 }
 
 .dashboard .news h4 a:hover {
-  color: #4154f1;
+  color: #d40032;
 }
 
 .dashboard .news p {
@@ -960,6 +984,7 @@ h6 {
 .dashboard .recent-sales .table thead {
   background: #f6f6fe;
 }
+
 
 .dashboard .recent-sales .table thead th {
   border: 0;
@@ -1068,7 +1093,7 @@ h6 {
 }
 
 .profile .profile-overview .card-title {
-  color: #012970;
+  color: #000000;
 }
 
 .profile .profile-overview .label {
@@ -1091,7 +1116,7 @@ h6 {
 .faq .basic h6 {
   font-size: 18px;
   font-weight: 600;
-  color: #4154f1;
+  color: #d40032;
 }
 
 .faq .basic p {
@@ -1108,7 +1133,7 @@ h6 {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: #d40032;
 }
 
 .contact .info-box h3 {
@@ -1176,7 +1201,7 @@ h6 {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #4154f1;
+  border-color: #d40032;
 }
 
 .contact .php-email-form input {
@@ -1188,7 +1213,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: #d40032;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1230,7 +1255,7 @@ h6 {
 .error-404 h1 {
   font-size: 180px;
   font-weight: 700;
-  color: #4154f1;
+  color: #d40032;
   margin-bottom: 0;
   line-height: 150px;
 }

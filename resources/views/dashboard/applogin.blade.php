@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{ asset('dashboard-asset/assets/img/favicon.png') }}" rel="icon">
-  <link href="{{ asset('dashboard-asset/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{ asset('dashboard-asset/assets/img/Logo_Symbol_L.jpg') }}" rel="icon">
+  <link href="{{ asset('dashboard-asset/assets/img/Logo_Symbol_L.jpg')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -52,8 +52,7 @@
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <img src="assets/img/logo.png" alt="">
-                  <span class="d-none d-lg-block">Octagon</span>
+                  <img src=" " alt="">
                 </a>
               </div><!-- End Logo -->
 
@@ -64,7 +63,6 @@
                   <div class="pt-4 pb-2">
                     <div class="exit position-absolute top-0 end-0 pe-3 pt-3 fs-3"><a href=" {{asset('http://webapp-frontend-establishment-sivosa-montes.test/#')}} " class="x"><i class="bi bi-x-octagon"></i></a></div>
                     <h5 class="card-title text-center pb-0 fs-4">Login to Your Octagon Account</h5>
-                    <p class="text-center small">Enter your username & password to login</p>
                   </div>
 
                   <form method="POST" class="text-field-login row g-3 needs-validation" action="{{route('login')}}">
