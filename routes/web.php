@@ -22,8 +22,8 @@ Route::resource('/', PagesController::class);
 Route::prefix('/dashboard')->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/announcement', [AnnouncementController::class, 'index'])->name('dashboard.announcement');
-    Route::get('/addannouncement', [AnnouncementController::class, 'form'])->name('dashboard.addannouncement');
-
+    Route::get('/announcement/add', [AnnouncementController::class, 'form'])->name('dashboard.addannouncement');
+    Route::post('/announcement/add', [AnnouncementController::class, 'store'])->name('dashboard.announcementadd');
 })->middleware(['auth', 'verified']);
 
 //  Route::get('/announcement', [AnnouncementController::class, 'index'])->Route::middleware(['auth', 'verified'])->name(announcement);

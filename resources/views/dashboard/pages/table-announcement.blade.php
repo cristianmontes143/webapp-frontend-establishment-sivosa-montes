@@ -16,7 +16,7 @@
           <th scope="col">description</th>
           <th scope="col">user_id</th>
           <th scope="col">actions</th>
-          <th scope = "col"> <button type="button" class="btn btn-info">Add</button></th>
+          <th scope = "col"> <a href="{{route('dashboard.addannouncement')}} " type="button" class="btn btn-info">Add</a></th>
         </tr>
       </thead>
       <tbody>
