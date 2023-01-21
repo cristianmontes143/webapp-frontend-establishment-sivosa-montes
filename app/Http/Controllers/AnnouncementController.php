@@ -12,4 +12,14 @@ class AnnouncementController extends Controller
         // return new AnnouncementCollection(announcement::paginate());
         return view('dashboard.pages.table-announcement', ['data' => $announcements]);
     }
+
+    public function form() {
+        $announcements = Announcement::paginate();
+        return view('dashboard.announcement.add', [
+
+            'id'
+
+        ]);
+    }
+
 }

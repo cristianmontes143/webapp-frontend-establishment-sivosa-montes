@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dashboard - NiceAdmin Bootstrap Template</title>
+  <title>Octagon</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,6 +43,7 @@
   <main id="main" class="main">
     @yield('content')
 
+    <!-- Start Page Title -->
     <div class="pagetitle">
       <h1>Dashboard</h1>
       <nav>
@@ -51,17 +52,12 @@
           <li class="breadcrumb-item active">Dashboard</li>
         </ol>
       </nav>
-    </div><!-- End Page Title -->
-
-
-
-
-
+    </div>
+    <!-- End Page Title -->
 
             <!-- Top Selling -->
             <div class="col-12">
               <div class="card top-selling overflow-auto">
-
                 {{-- <div class="filter">
                   <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
                   <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -74,9 +70,6 @@
                     <li><a class="dropdown-item" href="#">This Year</a></li>
                   </ul>
                 </div> --}}
-
-                
-
                 <div class="card-body pb-0">
                   <h5 class="card-title">Top Selling <span>| Today</span></h5>
 
@@ -133,36 +126,9 @@
 
               </div>
             </div><!-- End Top Selling -->
-
-          </div>
-        </div><!-- End Left side columns -->
-
-        <!-- Right side columns -->
-        <div class="col-lg-4">
-
-
-
-        </div><!-- End Right side columns -->
-
       </div>
     </section>
-
   </main><!-- End #main -->
-
-  {{-- <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
-    </div>
-    <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-    </div>
-  </footer><!-- End Footer --> --}}
-
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Pages / Login - NiceAdmin Bootstrap Template</title>
+  <title>Login - Octagon</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -39,13 +39,16 @@
 
 <body>
 
-  <main>
-    <div class="container">
+  <main class="section-login">
+    <div class="background-image position-absolute top-50 start-50 translate-middle">
+      <img src="{{asset('landing-page-asset/Logo_L_vector.png')}} " alt="">
+    </div>
+    <div class=" container">
 
-      <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+      <section class=" section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+            <div class="login-card col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
@@ -64,7 +67,7 @@
                     <p class="text-center small">Enter your username & password to login</p>
                   </div>
 
-                  <form method="POST" class="row g-3 needs-validation" action="{{route('login')}}">
+                  <form method="POST" class="text-field-login row g-3 needs-validation" action="{{route('login')}}">
                     @csrf
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Username</label>
@@ -88,7 +91,7 @@
                       </div>
                     </div>
                     <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit">Login</button>
+                      <button class="btn btn-danger w-100" type="submit">Login</button>
                       
                     </div>
                     <div class="col-12">

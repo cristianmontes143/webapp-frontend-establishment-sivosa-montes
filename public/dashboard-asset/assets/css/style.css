@@ -232,13 +232,27 @@ h6 {
   border-color: #d3d3d4;
 }
 
+/* section-login */
+.section-login{
+  background-image: url("../img/footer_image.png");
+  background-position: 42cm ;
+  /* background-size: contain; */
+  /* background-position: 0cm --10cm; */
+  /* background-color: red;  */
+}
+
 /* Card */
 .card {
   margin-bottom: 30px;
   border: none;
   border-radius: 5px;
+  background-color: rgba(255, 238, 0, 0.796);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
+
+/* .login-card{
+  opacity: 0.33;
+} */
 
 .card-header,
 .card-footer {
@@ -253,6 +267,7 @@ h6 {
   font-size: 18px;
   font-weight: 500;
   color: #012970;
+  opacity: 1 !important;
   font-family: "Poppins", sans-serif;
 }
 
@@ -264,6 +279,12 @@ h6 {
 
 .card-body {
   padding: 0 20px 20px 20px;
+  
+}
+
+.text-field-login{
+  text-decoration: solid;
+  opacity: 1 !important;
 }
 
 .card-img-overlay {

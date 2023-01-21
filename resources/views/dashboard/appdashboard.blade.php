@@ -4,4 +4,5 @@
 @include('dashboard.dashboardpart.navigation')
 @include('dashboard.dashboardpart.sidebar')
 
+
 @stop
