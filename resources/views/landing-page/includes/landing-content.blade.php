@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row align-items-start">
 
-            <div class="col">
+            <div class="col category-item">
                 <div class="single-content mt-15 text-center">
                     <div class="content-icon">
                         <div class="content-content">
@@ -13,13 +13,15 @@
                         <img src="{{asset('landing-page-asset/Announcement-Pics/Category/Gaming.png')}}" alt="">
                         
                         <div class="content-content">
-                            <a href="javascript:void(0)" class="more">Learn More</a>
+                            <button type="button" class="category-button btn btn-warning btn-sm">
+                                <a href="contact-page.html" class="more">Learn More</a>
+                            </button>                       
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col category-item">
                 <div class="single-content mt-15 text-center">
                     <div class="content-icon">
                         <div class="content-content">
@@ -29,13 +31,15 @@
                         <img src="{{asset('landing-page-asset/Announcement-Pics/Category/DIY_Component.png')}}" alt="">
                         
                         <div class="content-content">
-                            <a href="contact-page.html" class="more">Learn More</a>
+                            <button type="button" class="category-button btn btn-warning btn-sm">
+                                <a href="contact-page.html" class="more">Learn More</a>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col category-item">
                 <div class="single-content mt-15 text-center">
                     <div class="content-icon">
                         <div class="content-content">
@@ -45,13 +49,15 @@
                         <img src="{{asset('landing-page-asset/Announcement-Pics/Category/Graphic_Tablet.png')}}" alt="">
 
                         <div class="content-content">
-                            <a href="javascript:void(0)" class="more">Learn More</a>
+                            <button type="button" class="category-button btn btn-warning btn-sm">
+                                <a href="contact-page.html" class="more">Learn More</a>
+                            </button>                        
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col category-item">
                 <div class="single-content mt-15 text-center">
                     <div class="content-icon">
                         <div class="content-content">
@@ -61,13 +67,15 @@
                         <img src="{{asset('landing-page-asset/Announcement-Pics/Category/PowerBank.png')}}" alt="">
 
                         <div class="content-content">
-                            <a href="javascript:void(0)" class="more">Learn More</a>
+                            <button type="button" class="category-button btn btn-warning btn-sm">
+                                <a href="contact-page.html" class="more">Learn More</a>
+                            </button>                        
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col category-item">
                 <div class="single-content mt-15 text-center">
                     <div class="content-icon">
                         <div class="content-content">
@@ -77,7 +85,9 @@
                         <img src="{{asset('landing-page-asset/Announcement-Pics/Category/Computer_Accessories.png')}}" alt="">
 
                         <div class="content-content">
-                            <a href="contact-page.html" class="more">Learn More</a>
+                            <button type="button" class="category-button btn btn-warning btn-sm">
+                                <a href="contact-page.html" class="more">Learn More</a>
+                            </button>                       
                         </div>
                     </div>
                 </div>
@@ -88,8 +98,8 @@
 </section>
 <!--====== Content Card Style 4 Part Ends ======-->
 
-<!--====== Product Style 7 Part Start ======-->
-<section class="product-wrapper pt-100 pb-50">
+<!--====== Featured Items Part Start ======-->
+<section class="product-wrapper featured-item-wrapper pt-100 pb-50">
     <div class="container container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -256,6 +266,6 @@
         </div>
     </div>
 </section>
-<!--====== Product Style 7 Part Ends ======-->
+<!--====== Featured Items Part Ends ======-->
 
 

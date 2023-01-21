@@ -1,5 +1,5 @@
     <!--====== Header Style 1 Part Start ======-->
-    <section class="header-style-1">
+    <section class="header-style-1 container-fluid">
         <div class="header-big border border-warning border-3">
             <div class="header-items-active">
 
@@ -28,21 +28,19 @@
         </div>
 
         <div class="header-min">
-            <div class="header-min-item product-style-25 h-50 d-block bg_cover"
+            <div class="header-min-item product-style-25 bg-cover"
                 style="background-image: url(landing-page-asset/Announcement-Pics/Shop-1.png);">
                 <div class="product-content">
                     <h4 class="title"><a href="product-details-page.html">Shopee</a></h4>
-                    {{-- <p>Reference 1102</p> --}}
                     <a href="javascript:void(0)" class="main-btn primary-btn-border">
                         <i class="bi bi-cart3">GO TO SHOP</i>
                     </a>
                 </div>
             </div>
-            <div class="header-min-item product-style-25 h-50 d-block bg_cover"
+            <div class="header-min-item product-style-25 bg-cover"
                 style="background-image: url(landing-page-asset/Announcement-Pics/Shop-2.png);">
                 <div class="product-content">
                     <h4 class="title"><a href="product-details-page.html">Lazada</a></h4>
-                    {{-- <p>Reference 1102</p> --}}
                     <a href="javascript:void(0)" class="main-btn primary-btn-border"> 
                         <i class="bi bi-cart3">GO TO SHOP</i>
                     </a>
