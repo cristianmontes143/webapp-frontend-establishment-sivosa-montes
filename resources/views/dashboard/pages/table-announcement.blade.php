@@ -8,6 +8,11 @@
 
     <table class="table datatable ">
       <thead>
+        @if(session()->has('status'))
+        <div class="alert alert-info" role="alert">
+          Added Announcement!
+        </div>
+        @endif
         <tr>
           <th scope="col">Id</th>
           <th scope="col">Header</th>
@@ -28,7 +33,7 @@
             <td>{{ $announcement->image }}</td>
             <td>{{ $announcement->description }}</td>
             <td>{{ $announcement->user_id }}</td>
-            <td><button class="btn btn-primary">Update</button></td>
+            <th scope = "col"> <a href="{{ route('dashboard.announcementupdate', ['id' => $announcement->id]) }} " type="button" class="btn btn-info">Update</a></th>
             <td><button class="btn btn-danger">Delete</button></td>
         </tr>
             

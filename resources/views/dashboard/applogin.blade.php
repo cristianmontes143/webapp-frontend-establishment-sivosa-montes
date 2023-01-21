@@ -59,7 +59,7 @@
               <div class="card mb-3">
 
                 <div class="card-body">
-
+                  
                   <div class="pt-4 pb-2">
                     <div class="exit position-absolute top-0 end-0 pe-3 pt-3 fs-3"><a href=" {{asset('http://webapp-frontend-establishment-sivosa-montes.test/#')}} " class="x"><i class="bi bi-x-octagon"></i></a></div>
                     <h5 class="card-title text-center pb-0 fs-4">Login to Your Octagon Account</h5>
