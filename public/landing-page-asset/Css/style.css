@@ -4334,6 +4334,7 @@ p {
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
     background-image: url("../header_image.png");
+    background-size: cover;
   }
 }
 
@@ -4342,6 +4343,8 @@ p {
     left: 0;
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
+    background-image: url("../header_image.png");
+    background-size: cover;
   }
 }
 
@@ -4737,8 +4740,7 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-style-7 .navbar-container .main-navbar .navbar-menu .main-menu li:hover > a {
-    background-color: #fff;
-    color: #4C4C4C;
+    background-color: #D10000;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
@@ -4746,8 +4748,7 @@ p {
 
 @media (max-width: 767px) {
   .navbar-style-7 .navbar-container .main-navbar .navbar-menu .main-menu li:hover > a {
-    background-color: #fff;
-    color: #4C4C4C;
+    background-color: #D10000;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
@@ -6464,6 +6465,7 @@ p {
 
 .header-style-1 .header-min .header-min-item {
   height: 380px;
+  
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

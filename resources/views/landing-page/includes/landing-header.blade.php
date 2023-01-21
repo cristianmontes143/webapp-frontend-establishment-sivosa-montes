@@ -1,6 +1,6 @@
     <!--====== Header Style 1 Part Start ======-->
     <section class="header-style-1">
-        <div class="header-big">
+        <div class="header-big border border-warning border-3">
             <div class="header-items-active">
 
                 <div class="single-header-item bg_cover h-50 d-block w-20">
