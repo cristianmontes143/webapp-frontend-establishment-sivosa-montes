@@ -26,7 +26,8 @@ Route::prefix('/dashboard')->group(function () {
     Route::post('/announcement/add', [AnnouncementController::class, 'store'])->name('dashboard.announcementadd');
     Route::get('/announcement/update/{id}', [AnnouncementController::class, 'show'])->name('dashboard.announcementupdate');
     Route::post('/announcement/update/{id}', [AnnouncementController::class, 'update'])->name('dashboard.update');
-
+    Route::get('/announcement/delete/{id}', [AnnouncementController::class, 'delete'])->name('dashboard.announcementdelete');
+    Route::post('/announcement/delete/{id}', [AnnouncementController::class, 'destroy'])->name('dashboard.delete');
 })->middleware(['auth', 'verified']);
 
 //  Route::get('/announcement', [AnnouncementController::class, 'index'])->Route::middleware(['auth', 'verified'])->name(announcement);

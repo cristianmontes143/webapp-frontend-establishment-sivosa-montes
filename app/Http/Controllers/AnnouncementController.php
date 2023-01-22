@@ -63,5 +63,22 @@ class AnnouncementController extends Controller
         return redirect('dashboard/announcement'); 
 
     }
+    public function delete($id) {
+        $announcements = Announcement::find($id);
+        return view('dashboard.announcement.delete', [
+            
+            'announcement' => $announcements,
+
+
+        ]);
+    }
+
+    public function destroy($id)
+    {
+        $announcements = Announcement::findOrFail($id);
+        $announcements->delete();
+
+        return redirect('dashboard/announcement');
+    }
 
 }

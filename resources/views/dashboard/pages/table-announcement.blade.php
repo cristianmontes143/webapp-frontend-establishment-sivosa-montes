@@ -27,8 +27,11 @@
             <td>{{ $announcement->image }}</td>
             <td>{{ $announcement->description }}</td>
             <td>{{ $announcement->user_id }}</td>
-            <th scope = "col"> <a href="{{ route('dashboard.announcementupdate', ['id' => $announcement->id]) }} " type="button" class="btn btn-info">Update</a></th>
-            <td><button class="btn btn-danger">Delete</button></td>
+            <th scope = "col"> <a href="{{ route('dashboard.announcementupdate', ['id' => $announcement->id]) }} "
+                 type="button" class="btn btn-success">Update</a></th>
+            <th scope = "col"> <a href="{{ route('dashboard.announcementdelete', ['id' => $announcement->id]) }} "
+                  type="button" class="btn btn-danger">Delete</a></th>
+
         </tr>
             
         @endforeach
