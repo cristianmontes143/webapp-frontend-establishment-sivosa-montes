@@ -4,6 +4,7 @@
 @include('dashboard.dashboardpart.navigation')
 @include('dashboard.dashboardpart.sidebar')
 <div class="card-body">
+
     <h6 class="card-title">Add Announcement</h6>
     <form method="POST" action="{{route('dashboard.announcementadd')}} ">
       @csrf

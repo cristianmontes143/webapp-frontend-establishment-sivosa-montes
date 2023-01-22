@@ -59,7 +59,9 @@ class AnnouncementController extends Controller
 
         $announcements->update($request->all());
 
+        session()->flash('status', 'Announcement Updated');
         return redirect('dashboard/announcement'); 
+
     }
 
 }

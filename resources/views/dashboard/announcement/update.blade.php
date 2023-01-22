@@ -4,13 +4,10 @@
 @include('dashboard.dashboardpart.navigation')
 @include('dashboard.dashboardpart.sidebar')
 <div class="card-body">
-    <h6 class="card-title">Update Announcement</h6>
-    <form method="POST" action="{{ (url()->current() ==  route('dashboard.announcementadd'))?
-      route('dashboard.announcementadd'):url('add/update/' .  $announcement->id) }} ">
-S
-{{-- method="POST" action="{{ (url()->current() ==  url('/dashboard/announcementadd'))?
-      route('dashboard.announcementadd'):url('/dashboard/update', ['id' => $announcement->id]) }} "> --}}
 
+    <h6 class="card-title">Update Announcement</h6>
+    <form method="POST" action="{{ route('dashboard.update', ['id' => $announcement->id])}} ">
+        
       @csrf
 
       <div class="mb-3">

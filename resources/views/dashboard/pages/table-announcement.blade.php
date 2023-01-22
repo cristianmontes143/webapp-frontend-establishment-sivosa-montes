@@ -5,14 +5,8 @@
 @include('dashboard.dashboardpart.sidebar')
 <div class="card-body">
     <h6 class="card-title">Users</h6>
-
     <table class="table datatable ">
       <thead>
-        @if(session()->has('status'))
-        <div class="alert alert-info" role="alert">
-          Added Announcement!
-        </div>
-        @endif
         <tr>
           <th scope="col">Id</th>
           <th scope="col">Header</th>

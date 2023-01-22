@@ -25,7 +25,7 @@ Route::prefix('/dashboard')->group(function () {
     Route::get('/announcement/add', [AnnouncementController::class, 'form'])->name('dashboard.addannouncement');
     Route::post('/announcement/add', [AnnouncementController::class, 'store'])->name('dashboard.announcementadd');
     Route::get('/announcement/update/{id}', [AnnouncementController::class, 'show'])->name('dashboard.announcementupdate');
-    Route::post('/announcement/update/{id}', [AnnouncementController::class, 'show'])->name('dashboard.update');
+    Route::post('/announcement/update/{id}', [AnnouncementController::class, 'update'])->name('dashboard.update');
 
 })->middleware(['auth', 'verified']);
 
