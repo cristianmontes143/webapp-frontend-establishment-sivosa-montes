@@ -20,11 +20,12 @@
      
 <!-- Users -->
   <li class="nav-item">
-    <a class="nav-link " href="{{ route('dashboard.announcement') }}">
+    <a class="nav-link " href="{{ route('dashboard.user') }}">
       <i class="bi bi-grid"></i>
-      <span>Users</span>
+      <span>User</span>
     </a>
   </li>
+  
 
       {{-- <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">

@@ -4,8 +4,8 @@
 @include('dashboard.dashboardpart.navigation')
 @include('dashboard.dashboardpart.sidebar')
 <div class="card-body">
-    <h6 class="card-title">Users</h6>
-    <table class="table datatable ">
+    <h6 class="card-title">Announcement</h6>
+    <table class="table table-warning table-striped ">
       <thead>
         <tr>
           <th scope="col">Id</th>

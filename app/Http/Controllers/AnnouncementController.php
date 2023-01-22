@@ -25,7 +25,8 @@ class AnnouncementController extends Controller
 
         $request->validate([
             'header' => ['required', 'string', 'max:255'],
-            'sub_header' => ['required', 'string', 'max:255'],        
+            'sub_header' => ['required', 'string', 'max:255'], 
+            // 'image ' => ['']       
         ]); 
 
         Announcement::create([
