@@ -49,35 +49,35 @@
           <tbody>
             <tr>
               <th scope="row"><a href="#"><img src="assets/img/product-1.jpg" alt=""></a></th>
-              <td><a href="#" class="text-primary fw-bold">Cellphone</a></td>
+              <td><a href="#" class="text-dark fw-bold">Cellphone</a></td>
               <td>$64</td>
               <td class="fw-bold">124</td>
               <td>$7,936</td>
             </tr>
             <tr>
               <th scope="row"><a href="#"><img src="assets/img/product-2.jpg" alt=""></a></th>
-              <td><a href="#" class="text-primary fw-bold">Laptop</a></td>
+              <td><a href="#" class="text-dark fw-bold">Laptop</a></td>
               <td>$534</td>
               <td class="fw-bold">98</td>
               <td>$52,332</td>
             </tr>
             <tr>
               <th scope="row"><a href="#"><img src="assets/img/product-3.jpg" alt=""></a></th>
-              <td><a href="#" class="text-primary fw-bold">Printer</a></td>
+              <td><a href="#" class="text-dark fw-bold">Printer</a></td>
               <td>$243</td>
               <td class="fw-bold">74</td>
               <td>$17,982</td>
             </tr>
             <tr>
               <th scope="row"><a href="#"><img src="assets/img/product-4.jpg" alt=""></a></th>
-              <td><a href="#" class="text-primary fw-bold">Tablet</a></td>
+              <td><a href="#" class="text-dark fw-bold">Tablet</a></td>
               <td>$89</td>
               <td class="fw-bold">63</td>
               <td>$5,607</td>
             </tr>
             <tr>
               <th scope="row"><a href="#"><img src="assets/img/product-5.jpg" alt=""></a></th>
-              <td><a href="#" class="text-primary fw-bold">Accesories</a></td>
+              <td><a href="#" class="text-dark fw-bold">Accesories</a></td>
               <td>$79</td>
               <td class="fw-bold">41</td>
               <td>$3,239</td>
