@@ -36,7 +36,9 @@ Route::prefix('/dashboard')->group(function () {
     Route::get('/user/add', [UserController::class, 'form'])->name('dashboard.adduser');
     Route::post('/user/add', [UserController::class, 'store'])->name('dashboard.useradd');
     Route::get('/user/update/{id}', [UserController::class, 'show'])->name('dashboard.userupdate');
-    Route::post('/user/update/{id}', [UserController::class, 'update'])->name('dashboard.update');
+    Route::post('/user/update/{id}', [UserController::class, 'update'])->name('dashboard.updateuser');
+    Route::get('/user/delete/{id}', [UserController::class, 'delete'])->name('dashboard.userdelete');
+    Route::post('/user/delete/{id}', [UserController::class, 'destroy'])->name('dashboard.deleteuser');
 
 })->middleware(['auth', 'verified']);
 

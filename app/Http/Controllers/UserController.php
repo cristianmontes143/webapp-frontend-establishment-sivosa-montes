@@ -54,11 +54,30 @@ class UserController extends Controller
         ]);
         $user = User::find($id);
 
-        $user->update($request->all());
+        $user->update(['name' => $request->name,
+                       'email' =>$request->email]);
 
         session()->flash('status', 'User Updated');
         return redirect('dashboard/user'); 
 
+    }
+
+    public function delete($id) {
+        $users = User::find($id);
+        return view('dashboard.user.delete', [
+            
+            'user' => $users,
+
+
+        ]);
+    }
+
+    public function destroy($id)
+    {
+        $users = User::findOrFail($id);
+        $users->delete();
+
+        return redirect('dashboard/user');
     }
 
 }

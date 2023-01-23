@@ -30,13 +30,13 @@
           <li><a class="dropdown-item" href="#">This Year</a></li>
         </ul>
       </div> --}}
-      <div class="card-body pb-0">
+      <div class="card-body pb-3">
         <div class="top-selling-table">
           <h5 class="table">Top Selling <span>| Today</span></h5>
 
         </div>
 
-        <table class="table table-border">
+        <table class="table table-warning table-striped">
           <thead>
             <tr>
               <th scope="col">Preview</th>

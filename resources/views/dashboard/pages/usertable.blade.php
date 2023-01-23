@@ -5,7 +5,7 @@
 @include('dashboard.dashboardpart.sidebar')
 
 <div>
-  <table class="table">
+  <table class="table table-warning table-striped ">
       <thead>
         <tr>
           <th scope="col">Id</th>
@@ -24,7 +24,7 @@
             <td>{{ $user->email }}</td>
             <th scope = "col"> <a href="{{ route('dashboard.userupdate', ['id' => $user->id]) }} "
                 type="button" class="btn btn-success">Update</a></th>
-            <th scope = "col"> <a href="{{ route('dashboard', ['id' => $user->id]) }} "
+            <th scope = "col"> <a href="{{ route('dashboard.userdelete', ['id' => $user->id]) }} "
                   type="button" class="btn btn-danger">Delete</a></th>
 
         </tr>
