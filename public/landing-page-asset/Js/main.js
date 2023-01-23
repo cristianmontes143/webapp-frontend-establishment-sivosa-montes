@@ -26,6 +26,13 @@ $(function() {
             $(".navigation").addClass("sticky");
         }
     });
+
+    $('.carousel .slick-prev').on('click', function () {
+        $('.carousel').slick("slickPrev");
+    });
+    $('.carousel .slick-next').on('click', function () {
+        $('.carousel').slick("slickNext");
+    });
     
     /*=====  End of Sticky  ======*/
 

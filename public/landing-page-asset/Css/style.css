@@ -2594,7 +2594,6 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #FAFAFA;
 }
 
 @media (max-width: 767px) {
@@ -2636,6 +2635,52 @@ p {
   .product-style-7 .product-image {
     max-width: 240px;
   }
+}
+
+.featured-item-wrapper{
+  background-color: #4a0714;
+}
+
+.product-wrapper-content{
+  background-color: #4a0714;
+}
+
+.featured-item-heading{
+  border: solid;
+  border-width: 2px;
+  border-color: yellow;
+  border-radius: 10px;
+  width: 48.9%;
+  background-color: rgba(0, 0, 0, 0.40);
+  margin-left: 10px;
+}
+
+.featured-item-text{
+  color: #D1D100;
+
+}
+
+.featured-item-row{
+  border: solid;
+  border-width: 2px;
+  border-color: yellow;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.70);
+  padding: 5px;
+}
+
+.content-item-heading{
+  border: solid;
+  border-width: 2px;
+  border-color: yellow;
+  border-radius: 10px;
+  width: 48.9%;
+  background-color: rgba(0, 0, 0, 0.40);
+  margin-left: 10px;
+}
+
+.content-item-text{
+  color: #D1D100;
 }
 
 .product-style-7 .product-image .product-active .product-item img {
@@ -2788,7 +2833,7 @@ p {
 .product-style-7 .product-content .price {
   font-weight: 500;
   font-size: 24px;
-  color: #D1D100;
+  color: #A60027;
   line-height: 30px;
   margin-top: 8px;
   display: block;
@@ -4368,12 +4413,14 @@ p {
 .navbar-style-7 .navbar-container .navbar-top-wrapper {
   /* background-color: #FFC270; */
   background-image: url("../header_image.png");
+  background-size: cover;
 }
 
 /*=====  Navbar Style 7 =====*/
 .navbar-wrapper{
   background-image: url("../header_image.png");
-  background-position: 0 -50px
+  background-position: 0 -50px;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6062,9 +6109,14 @@ p {
 ==================================================================*/
 
 /*===== All Content Card Style 4 =====*/
-.content-card-style-4 {
+.content-card-style-4{
   background-image: url("../header_image.png");
-  background-position: 0cm -1;
+  background-position: 0cm -8cm;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 .content-card-style-4 .single-content .content-icon i {

@@ -99,19 +99,19 @@
 <!--====== Content Card Style 4 Part Ends ======-->
 
 <!--====== Featured Items Part Start ======-->
-<section class="product-wrapper featured-item-wrapper pt-100 pb-50">
+<section class="product-wrapper featured-item-wrapper pt-90 pb-50">
     <div class="container container-fluid">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="mb-25">
-                    <h1 class="heading-2 font-weight-600">Featured Items</h1>
+            <div class="col-lg-12 featured-item-heading">
+                <div class="mb-25 mt-10 featured-item-wrapper-text">
+                    <h1 class="heading-2 font-weight-600 featured-item-text">Featured Items</h1>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="owl-carousel owl-theme">
-                <div class="item">
+                <div class="item featured-item-row">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30">
                             <div class="product-image">
@@ -137,7 +137,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item featured-item-row">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30">
                             <div class="product-image">
@@ -162,7 +162,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item featured-item-row">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30">
                             <div class="product-image">
@@ -187,7 +187,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item featured-item-row">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30">
                             <div class="product-image">
@@ -213,7 +213,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item featured-item-row">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30">
                             <div class="product-image">
@@ -238,7 +238,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item featured-item-row">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30">
                             <div class="product-image">
