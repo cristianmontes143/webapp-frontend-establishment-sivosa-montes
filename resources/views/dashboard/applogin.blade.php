@@ -68,10 +68,10 @@
                   <form method="POST" class="text-field-login row g-3 needs-validation" action="{{route('login')}}">
                     @csrf
                     <div class="col-12">
-                      <label for="yourUsername" class="form-label text-dark">Username</label>
+                      <label for="email" class="form-label text-dark">Username</label>
                       <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" name="email" class="form-control" id="yourUsername" required>
+                        <input type="text" name="email" class="form-control" id="email" required>
                         <div class="invalid-feedback">Please enter your username.</div>
                       </div>
                     </div>
@@ -99,9 +99,7 @@
 
                 </div>
               </div>
-
        
-
             </div>
           </div>
         </div>

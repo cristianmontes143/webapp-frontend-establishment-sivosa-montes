@@ -2583,6 +2583,41 @@ p {
                    19. Product css
 ==================================================================*/
 
+/*===== Carousel =====*/
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i  {
+  width: 55px;
+  height: 60px;
+  line-height: 46px;
+  font-size: 24px;
+  align-content: center;
+  color: #A30000;
+  background-color: #D1D100;
+  border-radius: 10%;
+  opacity: 0.5;
+  transition: all .3s;
+  transform: translateY(-270px);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.owl-nav .owl-prev i:hover,
+.owl-nav .owl-next i:hover {
+  opacity: 1;
+}
+
+.owl-nav .owl-prev i {
+  position: absolute;
+  left: -40px;
+}
+
+.owl-nav .owl-next i {
+  position: absolute;
+  right: -40px;
+}
+
 /*===== All Product Style 7 =====*/
 .product-style-7 {
   display: -moz-flex;
@@ -2594,6 +2629,7 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 767px) {
@@ -2613,9 +2649,14 @@ p {
   }
 }
 
+.product-wrapper{
+  padding-right: 20px;
+}
+
 .product-style-7 .product-image {
+
   position: relative;
-  max-width: 240px;
+  min-width: 240px;
   width: 100%;
 }
 
@@ -2650,9 +2691,8 @@ p {
   border-width: 2px;
   border-color: yellow;
   border-radius: 10px;
-  width: 48.9%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.40);
-  margin-left: 10px;
 }
 
 .featured-item-text{
@@ -2661,12 +2701,21 @@ p {
 }
 
 .featured-item-row{
-  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-left: solid;
+  border-right: solid;
   border-width: 2px;
   border-color: yellow;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.70);
-  padding: 5px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100%;
+  min-height: 454px;  
 }
 
 .content-item-heading{
@@ -2674,9 +2723,25 @@ p {
   border-width: 2px;
   border-color: yellow;
   border-radius: 10px;
-  width: 48.9%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.40);
-  margin-left: 10px;
+}
+
+.content-item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-left: solid;
+  border-right: solid;
+  border-width: 2px;
+  border-color: yellow;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.70);
+  margin: 10px;
+  height: 100%;
+  min-height: 454px;
+
 }
 
 .content-item-text{
@@ -2723,6 +2788,12 @@ p {
   -ms-flex: 1;
   -webkit-box-flex: 1;
           flex: 1;
+  width: 100%;
+  min-width: 270px;
+}
+
+.text-align{
+  text-align: center;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2778,6 +2849,11 @@ p {
   color: #4C4C4C;
 }
 
+.content-image{
+  height: 95%;
+  width: 95%;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .product-style-7 .product-content .product-meta li span {
     font-size: 14px;
@@ -2794,7 +2870,7 @@ p {
   font-weight: 500;
   font-size: 24px;
   line-height: 30px;
-  color: #000;
+  color: #ffffff;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
   margin-top: 8px;
@@ -4334,7 +4410,11 @@ p {
 .navbar-style-7 .desktop-logo {
   margin-right: 10px;
   height: 50%;
-  width: 50%;
+  width: 40%;
+}
+
+.btn-sm{
+  --bs-btn-padding-y: -0.75;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6111,10 +6191,10 @@ p {
 /*===== All Content Card Style 4 =====*/
 .content-card-style-4{
   background-image: url("../header_image.png");
-  background-position: 0cm -8cm;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-right: 20px;
   width: 100%;
   height: 100%;
 }
@@ -6132,9 +6212,14 @@ p {
   color: #000;
 }
 
+.content-icon{
+  width: 100%;
+}
+
 .category-item{
   margin: 10px;
-  height: 18rem;
+  height: 100%;
+  width: 100%;
   border-style: solid;
   border-width: 2px;
   border-color: red;
@@ -6198,6 +6283,7 @@ p {
   display: flex;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  background-color: #000000;
 }
 
 @media (max-width: 767px) {

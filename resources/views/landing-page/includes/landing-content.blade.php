@@ -109,23 +109,18 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="none">
             <div class="owl-carousel owl-theme">
                 <div class="item featured-item-row">
                     <div class="col-lg-6">
-                        <div class="product-style-7 mt-30">
+                        <div class="product-style-7 mt-30 row">
                             <div class="product-image">
                                 <span class="icon-text text-style-1">Out Of Stoke</span>
-                                <div class="product-active">
                                     <div class="product-item active">
                                         <img src="{{asset('landing-page-asset/Product/Accesory/ASSUS ROG RYUJIN 240.jpg')}}" alt="product">
                                     </div>
-                                    <div class="product-item">
-                                        <img src="{{asset('landing-page-asset/Product/Accesory/ASSUS ROG RYUJIN 240.jpg')}}" alt="product">
-                                    </div>
-                                </div>
                             </div>
-                            <div class="product-content">
+                            <div class="product-content text-align">
                                 <h4 class="title"><a href="product-details-page.html">ASSUS ROG RYUJIN 240</a></h4>
                                 <span class="price">₱ 12,000</span>
                                 <a href="javascript:void(0)" class="main-btn primary-btn">
@@ -139,18 +134,13 @@
 
                 <div class="item featured-item-row">
                     <div class="col-lg-6">
-                        <div class="product-style-7 mt-30">
+                        <div class="product-style-7 mt-30 row">
                             <div class="product-image">
-                                <div class="product-active">
                                     <div class="product-item active">
                                         <img src="{{asset('landing-page-asset/Product/Laptop/Huawei Matebook D15.jpg')}}" alt="Huawei Matebook D15">
                                     </div>
-                                    <div class="product-item">
-                                        <img src="{{asset('landing-page-asset/Product/Laptop/Huawei Matebook D15.jpg')}}" alt="Huawei Matebook D15">
-                                    </div>
-                                </div>
                             </div>
-                            <div class="product-content">
+                            <div class="product-content text-align">
                                 <h4 class="title"><a href="product-details-page.html">Huawei Matebook D15</a></h4>
                                 <span class="price">₱ 39,999</span>
                                 <a href="javascript:void(0)" class="main-btn primary-btn">
@@ -164,18 +154,13 @@
 
                 <div class="item featured-item-row">
                     <div class="col-lg-6">
-                        <div class="product-style-7 mt-30">
+                        <div class="product-style-7 mt-30 row">
                             <div class="product-image">
-                                <div class="product-active">
                                     <div class="product-item active">
                                         <img src="{{asset('landing-page-asset/Product/Networking/Tplink Archer C80 Ac1900 modem.jpg')}}" alt="product">
                                     </div>
-                                    <div class="product-item">
-                                        <img src="{{asset('landing-page-asset/Product/Networking/Tplink Archer C80 Ac1900 modem.jpg')}}" alt="product">
-                                    </div>
-                                </div>
                             </div>
-                            <div class="product-content">
+                            <div class="product-content text-align">
                                 <h4 class="title"><a href="product-details-page.html">Tplink Archer C80 Ac1900 modem</a></h4>
                                 <span class="price">₱ 2,500</span>
                                 <a href="javascript:void(0)" class="main-btn primary-btn">
@@ -189,19 +174,14 @@
 
                 <div class="item featured-item-row">
                     <div class="col-lg-6">
-                        <div class="product-style-7 mt-30">
+                        <div class="product-style-7 mt-30 row">
                             <div class="product-image">
                                 <span class="icon-text text-style-1">20% off</span>
-                                <div class="product-active">
                                     <div class="product-item active">
                                         <img src="{{asset('landing-page-asset/Product/Printer/CANON PIXMA.jpg')}}" alt="product">
                                     </div>
-                                    <div class="product-item">
-                                        <img src="{{asset('landing-page-asset/Product/Printer/CANON PIXMA.jpg')}}" alt="product">
-                                    </div>
-                                </div>
                             </div>
-                            <div class="product-content">
+                            <div class="product-content text-align">
                                 <h4 class="title"><a href="product-details-page.html">CANON PIXMA</a></h4>
                                 <span class="price">₱ 25,995</span>
                                 <a href="javascript:void(0)" class="main-btn primary-btn">
@@ -215,18 +195,13 @@
 
                 <div class="item featured-item-row">
                     <div class="col-lg-6">
-                        <div class="product-style-7 mt-30">
+                        <div class="product-style-7 mt-30 row">
                             <div class="product-image">
-                                <div class="product-active">
                                     <div class="product-item active">
                                         <img src="{{asset('landing-page-asset/Product/Mouse and keyboard/Delta force DK513.jpg')}}" alt="product">
                                     </div>
-                                    <div class="product-item">
-                                        <img src="{{asset('landing-page-asset/Product/Mouse and keyboard/Delta force DK513.jpg')}}" alt="product">
-                                    </div>
-                                </div>
                             </div>
-                            <div class="product-content">
+                            <div class="product-content text-align">
                                 <h4 class="title"><a href="product-details-page.html">Delta force DK513</a></h4>
                                 <span class="price">₱ 995</span>
                                 <a href="javascript:void(0)" class="main-btn primary-btn">
@@ -240,18 +215,13 @@
 
                 <div class="item featured-item-row">
                     <div class="col-lg-6">
-                        <div class="product-style-7 mt-30">
+                        <div class="product-style-7 mt-30 row">
                             <div class="product-image">
-                                <div class="product-active">
                                     <div class="product-item active">
                                         <img src="{{asset('landing-page-asset/Product/Cellphone _ tablet/REAL ME C11.jpg')}}" alt="product">
                                     </div>
-                                    <div class="product-item">
-                                        <img src="{{asset('landing-page-asset/Product/Cellphone _ tablet/REAL ME C11.jpg')}}" alt="product">
-                                    </div>
-                                </div>
                             </div>
-                            <div class="product-content">
+                            <div class="product-content text-align">
                                 <h4 class="title"><a href="product-details-page.html">REAL ME C11</a></h4>
                                 <span class="price">₱ 4,599</span>
                                 <a href="javascript:void(0)" class="main-btn primary-btn">
