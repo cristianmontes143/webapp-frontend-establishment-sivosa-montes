@@ -25,17 +25,22 @@ class AnnouncementController extends Controller
 
         $request->validate([
             'header' => ['required', 'string', 'max:255'],
-            'sub_header' => ['required', 'string', 'max:255'], 
-            // 'image ' => ['']       
+            'sub_header' => ['required', 'string', 'max:255'],  
+            // 'image' => ['required|image|mimes:jpg,png,jpeg,gif,svg|max:2048'],      
         ]); 
+        $imageName = time().'.'.$request->image->extension();  
+        $request->image->move(public_path('images'), $imageName);
+        // $image = $request->file('image')->store('image', 'public');
 
         Announcement::create([
             'header' => $request->header,
             'sub_header' => $request->sub_header,
-            'image' => $request->image,
+            'image' => $imageName,
             'description' => $request->description,
             'user_id' => 1,
         ]);
+
+       
 
         
 

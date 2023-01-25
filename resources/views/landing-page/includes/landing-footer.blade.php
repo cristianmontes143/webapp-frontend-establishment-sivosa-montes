@@ -8,11 +8,11 @@
                             <img src="{{asset('landing-page-asset/Logo_S_vector.png')}}" alt="">
                         </a>
                     </div>
-                    <h5 class="heading-5 text-center mt-30">Follow Us</h5>
+                    {{-- <h5 class="heading-5 text-center mt-30">Follow Us</h5>
                     <ul class="footer-follow text-center">
                         <li><a href="javascript:void(0)"><i class="bi bi-facebook"></i></a></li>
                         <li><a href="javascript:void(0)"><i class="bi bi-twitter"></i></a></li>
-                    </ul>
+                    </ul> --}}
                 </div>
             </div>
         </div>
@@ -21,29 +21,47 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="footer-widget">
-                        <h5 class="footer-title">PRODUCT</h5>
+                        <h5 class="footer-title">Follow Us</h5>
 
                         <ul class="footer-link">
-                            <li><a href="javascript:void(0)">Quest</a></li>
-                            <li><a href="javascript:void(0)">Rift S</a></li>
-                            <li><a href="javascript:void(0)">Gear VR</a></li>
-                            <li><a href="javascript:void(0)">Apps and Games</a></li>
-                            <li><a href="javascript:void(0)">Apps and Games</a></li>
-                            <li><a href="javascript:void(0)">Oculus for Business</a></li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-facebook"></i>
+                                    Facebook</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-twitter"></i>
+                                   Twitter</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-instagram"></i>
+                                    Instargam</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="footer-widget">
-                        <h5 class="footer-title">DEVELOPERS</h5>
+                        <h5 class="footer-title">Infromation</h5>
 
                         <ul class="footer-link">
-                            <li><a href="javascript:void(0)">Developer Centre</a></li>
-                            <li><a href="javascript:void(0)">Docs</a></li>
-                            <li><a href="javascript:void(0)">Downloads</a></li>
-                            <li><a href="javascript:void(0)">Tools</a></li>
-                            <li><a href="javascript:void(0)">Developer Blog</a></li>
-                            <li><a href="javascript:void(0)">Developer Forums</a></li>
+                            <li>
+                                <a href="javascript:void(0)">Home</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Our Stores</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Promotions</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Support</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Downloads</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
