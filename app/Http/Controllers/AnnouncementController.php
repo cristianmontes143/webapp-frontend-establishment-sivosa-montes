@@ -40,10 +40,6 @@ class AnnouncementController extends Controller
             'user_id' => 1,
         ]);
 
-       
-
-        
-
         session()->flash('status', 'Announcement added');
 
         return redirect('dashboard/announcement');

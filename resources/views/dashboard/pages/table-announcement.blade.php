@@ -24,7 +24,9 @@
             <th>{{ $announcement->id }}</th>
             <td>{{ $announcement->header }}</td>
             <td>{{ $announcement->sub_header }}</td>
-            <td>{{ $announcement->image }}</td>
+            <td> 
+              <img src="{{asset ($announcement->image) }}" width="70px" height="70px" alt="image">
+            </td>
             <td>{{ $announcement->description }}</td>
             <td>{{ $announcement->user_id }}</td>
             <th scope = "col"> <a href="{{ route('dashboard.announcementupdate', ['id' => $announcement->id]) }} "

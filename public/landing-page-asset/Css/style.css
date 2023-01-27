@@ -6551,7 +6551,34 @@ p {
 ==================================================================*/
 /*===== All Footer Style 3 =====*/
 .footer-style-3 {
-  background-color: #FAFAFA;
+  background-image: url('../header_image.png');
+}
+
+.footer-logo{
+  width: 100%;
+}
+
+.footer-image{
+  width: 350px;
+}
+
+.footer-widget-wrapper{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+
+}
+
+.footer-widget{
+  width: 100%;
+  display: block;
 }
 
 .footer-style-3 .footer-top .footer-widget-subscribe {
@@ -6578,26 +6605,6 @@ p {
   right: 0;
   padding: 0;
   text-align: center;
-}
-
-.footer-style-3 .footer-top .footer-follow {
-  padding-top: 24px;
-}
-
-.footer-style-3 .footer-top .footer-follow li {
-  display: inline-block;
-  margin: 0 8px;
-}
-
-.footer-style-3 .footer-top .footer-follow li a {
-  font-size: 20px;
-  color: #D40032;
-}
-
-@media (max-width: 767px) {
-  .footer-style-3 .footer-top .footer-follow li a {
-    font-size: 20px;
-  }
 }
 
 .footer-style-3 .footer-widget {
@@ -6640,7 +6647,7 @@ p {
 }
 
 .footer-style-3 .footer-copyright {
-  padding-top: 52px;
+  padding-top: 80px;
 }
 
 .footer-style-3 .footer-copyright p {

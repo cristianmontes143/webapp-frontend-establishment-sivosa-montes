@@ -1,11 +1,11 @@
-<section class="footer-style-3 pt-100 pb-100">
+<section class="footer-style-3 pt-50 pb-80">
     <div class="container">
         <div class="footer-top">
             <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-7 col-sm-10">
                     <div class="footer-logo text-center">
                         <a href="index.html">
-                            <img src="{{asset('landing-page-asset/Logo_S_vector.png')}}" alt="">
+                            <img class="footer-image" src="{{asset('landing-page-asset/Logo_L_vector.png')}}" alt="">
                         </a>
                     </div>
                     {{-- <h5 class="heading-5 text-center mt-30">Follow Us</h5>
@@ -18,7 +18,7 @@
         </div>
 
         <div class="footer-widget-wrapper text-center pt-20">
-            <div class="row">
+            <div class="row footer-row">
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="footer-widget">
                         <h5 class="footer-title">Follow Us</h5>
@@ -67,26 +67,19 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="footer-widget">
-                        <h5 class="footer-title">PRODUCT</h5>
+                        <h5 class="footer-title">Contacts</h5>
 
                         <ul class="footer-link">
-                            <li><a href="javascript:void(0)">Blog</a></li>
-                            <li><a href="javascript:void(0)">Careers</a></li>
-                            <li><a href="javascript:void(0)">Brand Centre</a></li>
-                            <li><a href="javascript:void(0)">Connect</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="footer-widget">
-                        <h5 class="footer-title">PRODUCT</h5>
-
-                        <ul class="footer-link">
-                            <li><a href="javascript:void(0)">VR for Good</a></li>
-                            <li><a href="javascript:void(0)">Launch Pad</a></li>
-                            <li><a href="javascript:void(0)">Creators Lab</a></li>
-                            <li><a href="javascript:void(0)">Forums</a></li>
-                            <li><a href="javascript:void(0)">Support</a></li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-headset"></i>
+                                    Email</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="bi bi-activity"></i>
+                                    Connect</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

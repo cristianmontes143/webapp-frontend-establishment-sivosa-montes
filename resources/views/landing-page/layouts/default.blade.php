@@ -6,7 +6,7 @@
     
         <!--====== Title ======-->
         <title>Octagon Computer Superstore</title>
-        <link rel="icon" href="{{asset('landing_page_asset/Logo_Symbol_L.jpg')}}">
+        <link rel="icon" href="{{asset('../landing-page-asset/Logo_Symbol_L.jpg')}}">
     
         <meta name="description" content="">
         <meta name="author" content="Website for ITE18">
