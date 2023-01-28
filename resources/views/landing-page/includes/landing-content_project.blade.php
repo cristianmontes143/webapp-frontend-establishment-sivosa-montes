@@ -1,6 +1,6 @@
 <!--====== Product-Accesories Start ======-->
 <section class="product-wrapper product-wrapper-content text-align pt-10 pb-50">
-    <div class="container container-fluid">
+    <div class="container container-fluid product-container">
         <div class="row">
             <div class="col-lg-12 content-item-heading">
                 <div class="mb-10 ms-1">
@@ -11,7 +11,7 @@
 
         <div class="row border-top border-bottom border-warning">
             <div class="owl-collection owl-carousel">
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -60,7 +60,7 @@
 
 <!--====== Product-Cellphone_tablet Start ======-->
 <section class="product-wrapper product-wrapper-content text-align pt-10 pb-50">
-    <div class="container container-fluid">
+    <div class="container container-fluid product-container">
         <div class="row">
             <div class="col-lg-12 content-item-heading">
                 <div class="mb-10 ms-1">
@@ -71,7 +71,7 @@
 
         <div class="row border-top border-bottom border-warning">
             <div class="owl-collection owl-carousel">
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -92,7 +92,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -112,7 +112,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -132,7 +132,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -181,7 +181,7 @@
 
 <!--====== Product-Laptop Start ======-->
 <section class="product-wrapper product-wrapper-content text-align pt-10 pb-50">
-    <div class="container container-fluid">
+    <div class="container container-fluid product-container">
         <div class="row">
             <div class="col-lg-12 content-item-heading">
                 <div class="mb-10 ms-1">
@@ -192,7 +192,7 @@
 
         <div class="row border-top border-bottom border-warning">
             <div class="owl-collection owl-carousel">
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -212,7 +212,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -232,7 +232,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -252,7 +252,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -280,7 +280,7 @@
 
 <!--====== Product-Mouse&Keyboard Start !!!!======-->
 <section class="product-wrapper product-wrapper-content text-align pt-10 pb-50">
-    <div class="container container-fluid">
+    <div class="container container-fluid product-container">
         <div class="row">
             <div class="col-lg-12 content-item-heading">
                 <div class="mb-10 ms-1">
@@ -291,7 +291,7 @@
 
         <div class="row border-top border-bottom border-warning">
             <div class="owl-collection owl-carousel">
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -311,7 +311,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -331,7 +331,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -351,7 +351,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -372,7 +372,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -392,7 +392,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -412,7 +412,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -440,7 +440,7 @@
 
 <!--====== Product-Networking Start !!!!======-->
 <section class="product-wrapper product-wrapper-content text-align pt-10 pb-50">
-    <div class="container container-fluid">
+    <div class="container container-fluid product-container">
         <div class="row">
             <div class="col-lg-12 content-item-heading">
                 <div class="mb-10 ms-1">
@@ -451,7 +451,7 @@
 
         <div class="row border-top border-bottom border-warning">
             <div class="owl-collection owl-carousel">
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -471,7 +471,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -491,7 +491,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -511,7 +511,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -531,7 +531,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -558,7 +558,7 @@
 
 <!--====== Product-PC-Components Start !!!!======-->
 <section class="product-wrapper product-wrapper-content text-align pt-10 pb-50">
-    <div class="container container-fluid">
+    <div class="container container-fluid product-container">
         <div class="row">
             <div class="col-lg-12 content-item-heading">
                 <div class="mb-10 ms-1">
@@ -569,7 +569,7 @@
 
         <div class="row border-top border-bottom border-warning">
             <div class="owl-collection owl-carousel">
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -589,7 +589,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -609,7 +609,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -629,7 +629,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -657,7 +657,7 @@
 
 <!--====== Product-Printer Start !!!!======-->
 <section class="product-wrapper product-wrapper-content text-align pt-10 pb-50">
-    <div class="container container-fluid">
+    <div class="container container-fluid product-container">
         <div class="row">
             <div class="col-lg-12 content-item-heading">
                 <div class="mb-10 ms-1">
@@ -668,7 +668,7 @@
 
         <div class="row border-top border-bottom border-warning">
             <div class="owl-collection owl-carousel">
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -688,7 +688,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -708,7 +708,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -728,7 +728,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -756,7 +756,7 @@
 
 <!--====== Product-Software Start !!!!======-->
 <section class="product-wrapper product-wrapper-content text-align pt-10 pb-50">
-    <div class="container container-fluid">
+    <div class="container container-fluid product-container">
         <div class="row">
             <div class="col-lg-12 content-item-heading">
                 <div class="mb-10 ms-1">
@@ -767,7 +767,7 @@
 
         <div class="row border-top border-bottom border-warning">
             <div class="owl-collection owl-carousel">
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -787,7 +787,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -807,7 +807,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">
@@ -827,7 +827,7 @@
                     </div>
                 </div>
 
-                <div class="item content-item">
+                <div class="item content-item ">
                     <div class="col-lg-6">
                         <div class="product-style-7 mt-30 row">
                             <div class="product-image">

@@ -116,7 +116,7 @@ p {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.64);
+  color: rgba(255, 234, 0, 0.64);
   margin: 0;
 }
 
@@ -2584,23 +2584,32 @@ p {
 ==================================================================*/
 
 /*===== Carousel =====*/
+.owl-nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
 .owl-nav .owl-prev i,
 .owl-nav .owl-next i  {
-  width: 55px;
-  height: 60px;
+  min-width: 55px;
+  min-height: 60px;
   line-height: 46px;
   font-size: 24px;
-  align-content: center;
   color: #A30000;
   background-color: #D1D100;
   border-radius: 10%;
   opacity: 0.5;
   transition: all .3s;
   transform: translateY(-270px);
-  display: flex;
+  display:inline-flex;
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: center;
+}
+
+.cursor-owl{
+  width: 100%;
 }
 
 .owl-nav .owl-prev i:hover,
@@ -2649,12 +2658,7 @@ p {
   }
 }
 
-.product-wrapper{
-  padding-right: 20px;
-}
-
 .product-style-7 .product-image {
-
   position: relative;
   min-width: 240px;
   width: 100%;
@@ -2667,23 +2671,73 @@ p {
 }
 
 @media (max-width: 767px) {
-  .product-style-7 .product-image {
-    max-width: 100%;
+  .product-style-7{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
+
+  .product-item{
+    max-width: 80%;
+    position: relative;
+    right: -23px;
+  }
+  .text-image{
+    width: 100%;
+  }
+
+  .featured-container{
+    width: 90%;
+    height: 95%;
+  }
+
+  .featured-item-text{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-container{
+    width: 90%;
+    height: 95%;
+  }
+
+  .content-item-text{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-item{
+    position: static;
+    right: 20px;
+  }
+
+  .owl-nav .owl-next i {
+    position: absolute !important;
+    right: -15px;
+  }
+
+  .owl-nav .owl-prev i {
+    position: absolute;
+    left: -15px;
+
+}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .product-style-7 .product-image {
     max-width: 240px;
   }
+
 }
 
 .featured-item-wrapper{
-  background-color: #4a0714;
+  background-color: #171717;
 }
 
 .product-wrapper-content{
-  background-color: #4a0714;
+  background-color: #171717;
 }
 
 .featured-item-heading{
@@ -2718,6 +2772,19 @@ p {
   min-height: 454px;  
 }
 
+.featured-item-row:hover{
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  -webkit-box-shadow: 2px 2px 8px rgb(0 0 0 / 32%);
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 32%);
+  padding: 0 16px;
+  border-radius: 4px;
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
 .content-item-heading{
   border: solid;
   border-width: 2px;
@@ -2741,7 +2808,19 @@ p {
   margin: 10px;
   height: 100%;
   min-height: 454px;
+}
 
+.content-item:hover{
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  -webkit-box-shadow: 2px 2px 8px rgb(0 0 0 / 32%);
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 32%);
+  padding: 0 16px;
+  border-radius: 4px;
+  transform: scale(1.1);
+  transition: 0.8s;
 }
 
 .content-item-text{
@@ -6194,7 +6273,6 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-right: 20px;
   width: 100%;
   height: 100%;
 }
@@ -6547,7 +6625,54 @@ p {
 }
 
 /*==================================================================
-                24. Footer css
+                23. Map css
+==================================================================*/
+/*===== All Map =====*/
+.landing-map{
+  background-color: #171717;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.map-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.map-desc{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border: solid;
+  border-width: 2px;
+  border-color: yellow;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.map-title{
+  color:  #D1D100;
+}
+
+.map{
+  border: solid;
+  border-width: 2px;
+  border-color: yellow;
+  border-radius: 2px;
+}
+
+@media (max-width: 1080px) {
+  .landing-map {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+/*==================================================================
+                25. Footer css
 ==================================================================*/
 /*===== All Footer Style 3 =====*/
 .footer-style-3 {
@@ -6556,6 +6681,7 @@ p {
 
 .footer-logo{
   width: 100%;
+  margin-top: 70px;
 }
 
 .footer-image{
@@ -6571,8 +6697,8 @@ p {
 .footer-row{
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-end;
-  justify-content: flex-end;
+  align-content:initial;
+  justify-content: center;
 
 }
 
@@ -6608,7 +6734,7 @@ p {
 }
 
 .footer-style-3 .footer-widget {
-  margin-top: 32px;
+  margin-top: 20px;
 }
 
 .footer-style-3 .footer-widget .footer-title {
@@ -6616,7 +6742,7 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  color: #000;
+  color:  #FFFF00;
 }
 
 .footer-style-3 .footer-widget .footer-link {
@@ -6631,7 +6757,7 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  color: #000;
+  color:  #D1D100;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
@@ -6642,137 +6768,35 @@ p {
   }
 }
 
-.footer-style-3 .footer-widget .footer-link li a:hover {
-  color: #D40032;
+.footer-style-3 .footer-widget .footer-link li:hover > a {
+  background-color: #D40032;
+  -webkit-box-shadow: 2px 2px 8px rgb(0 0 0 / 32%);
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 32%);
+  padding: 0 16px;
+  border-radius: 4px;
 }
 
 .footer-style-3 .footer-copyright {
-  padding-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .footer-style-3 .footer-copyright p {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  color: #000;
+  color: #fff;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
 .footer-style-3 .footer-copyright p a {
-  color: #000;
+  color: #fff;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
 .footer-style-3 .footer-copyright p a:hover {
   color: #D40032;
-}
-
-/*===== All Footer Style Dark 3 =====*/
-.footer-dark-style-3 {
-  background-color: #4C4C4C;
-}
-
-.footer-dark-style-3 .footer-top .footer-widget-subscribe p {
-  color: #fff;
-}
-
-.footer-dark-style-3 .footer-top .footer-widget-subscribe .subscribe-form .single-form .form-input input:focus {
-  border-color: #D1D100;
-}
-
-.footer-dark-style-3 .footer-top .footer-follow li a {
-  color: #fff;
-}
-
-.footer-dark-style-3 .footer-widget .footer-title {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-dark-style-3 .footer-widget .footer-link li a {
-  color: #fff;
-}
-
-.footer-dark-style-3 .footer-widget .footer-link li a:hover {
-  color: #D1D100;
-}
-
-.footer-dark-style-3 .footer-copyright p {
-  color: #fff;
-}
-
-.footer-dark-style-3 .footer-copyright p a {
-  color: #fff;
-}
-
-.footer-dark-style-3 .footer-copyright p a:hover {
-  color: #D1D100;
-}
-
-.subscribe-section .subscribe-form .single-form .main-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 4px;
-  width: 40px;
-}
-
-.pagination-wrapper ul li a {
-  width: 35px;
-  height: 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: 1px solid #D40032;
-  color: #828282;
-  font-size: 16px;
-  margin: 5px;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
-.pagination-wrapper ul li a.active, .pagination-wrapper ul li a:hover {
-  background: #D40032;
-  color: #fff;
-}
-
-.category-wrapper .tab-content .tab-pane {
-  display: block;
-  height: 0;
-}
-
-.category-wrapper .tab-content .tab-pane.active {
-  height: auto;
-}
-
-.product-image .icon-text {
-  position: absolute;
-  z-index: 9;
-  top: 10px;
-  left: 10px;
-  text-transform: uppercase;
-}
-
-.clients-logo-section .client-logo-active .single-logo-wrapper {
-  padding: 10px 20px;
-  text-align: center;
-  opacity: .5;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
-.clients-logo-section .client-logo-active .single-logo-wrapper:hover {
-  opacity: 1;
-}
-
-.clients-logo-section .client-logo-active .slick-slide:focus {
-  outline: 0;
 }
 /*# sourceMappingURL=style.css.map */

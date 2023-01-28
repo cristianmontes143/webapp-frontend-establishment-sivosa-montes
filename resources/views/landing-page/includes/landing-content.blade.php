@@ -100,7 +100,7 @@
 
 <!--====== Featured Items Part Start ======-->
 <section class="product-wrapper featured-item-wrapper pt-90 pb-50">
-    <div class="container container-fluid">
+    <div class="featured-container container container-fluid">
         <div class="row">
             <div class="col-lg-12 featured-item-heading">
                 <div class="mb-25 mt-10 featured-item-wrapper-text">

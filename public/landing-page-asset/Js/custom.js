@@ -36,6 +36,6 @@ $(document).ready(function(){
 		}
 	})
 
-    $( ".owl-prev").html('<i class="bi bi-caret-left"></i>');
-    $( ".owl-next").html('<i class="bi bi-caret-right"></i>');
+    $( ".owl-prev").html('<div class="cursor-owl"><i class="bi bi-caret-left"></i></div>');
+    $( ".owl-next").html('<div class="cursor-owl"><i class="bi bi-caret-right"></i></div>');
   });
