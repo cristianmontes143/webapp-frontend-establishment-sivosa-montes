@@ -298,23 +298,6 @@ $(function() {
         $('.overlay-7').removeClass('open')
     });
 
-    /*-------- Mobile Menu Dark Sidebar  7 --------*/
-
-    $('.mobile-menu-open-dark-7').on('click', function(){
-        $('.navbar-sidebar-dark-7').addClass('open')
-        $('.overlay-dark-7').addClass('open')
-    });
-    
-    $('.close-mobile-menu-dark-7').on('click', function(){
-        $('.navbar-sidebar-dark-7').removeClass('open')
-        $('.overlay-dark-7').removeClass('open')
-    });
-    
-    $('.overlay-dark-7').on('click', function(){
-        $('.navbar-sidebar-dark-7').removeClass('open')
-        $('.overlay-dark-7').removeClass('open')
-    });
-
     /*-------- Mobile Menu Sidebar 8 --------*/
     
     $('.mobile-menu-open-8').on('click', function(){
@@ -330,23 +313,6 @@ $(function() {
     $('.overlay-8').on('click', function(){
         $('.navbar-sidebar-8').removeClass('open')
         $('.overlay-8').removeClass('open')
-    });
-
-    /*-------- Mobile Menu Dark Sidebar 8 --------*/
-
-    $('.mobile-menu-open-dark-8').on('click', function(){
-        $('.navbar-sidebar-dark-8').addClass('open')
-        $('.overlay-dark-8').addClass('open')
-    });
-    
-    $('.close-mobile-menu-dark-8').on('click', function(){
-        $('.navbar-sidebar-dark-8').removeClass('open')
-        $('.overlay-dark-8').removeClass('open')
-    });
-    
-    $('.overlay-dark-8').on('click', function(){
-        $('.navbar-sidebar-dark-8').removeClass('open')
-        $('.overlay-dark-8').removeClass('open')
     });
 
     /*-------- Mobile Menu Sidebar 9--------*/
@@ -366,23 +332,6 @@ $(function() {
         $('.overlay-9').removeClass('open')
     });
 
-    /*-------- Mobile Menu Dark Sidebar 9 --------*/
-
-    $('.mobile-menu-open-dark-9').on('click', function(){
-        $('.navbar-sidebar-dark-9').addClass('open')
-        $('.overlay-dark-9').addClass('open')
-    });
-    
-    $('.close-mobile-menu-dark-9').on('click', function(){
-        $('.navbar-sidebar-dark-9').removeClass('open')
-        $('.overlay-dark-9').removeClass('open')
-    });
-    
-    $('.overlay-dark-9').on('click', function(){
-        $('.navbar-sidebar-dark-9').removeClass('open')
-        $('.overlay-dark-9').removeClass('open')
-    });
-
     /*-------- Mobile Menu Sidebar 10--------*/
     
     $('.mobile-menu-open-10').on('click', function(){
@@ -400,23 +349,6 @@ $(function() {
         $('.overlay-10').removeClass('open')
     });
     
-    /*-------- Mobile Menu Dark Sidebar 10 --------*/
-
-    $('.mobile-menu-open-dark-10').on('click', function(){
-        $('.navbar-sidebar-dark-10').addClass('open')
-        $('.overlay-dark-10').addClass('open')
-    });
-    
-    $('.close-mobile-menu-dark-10').on('click', function(){
-        $('.navbar-sidebar-dark-10').removeClass('open')
-        $('.overlay-dark-10').removeClass('open')
-    });
-    
-    $('.overlay-dark-10').on('click', function(){
-        $('.navbar-sidebar-dark-10').removeClass('open')
-        $('.overlay-dark-10').removeClass('open')
-    });
-
     /*-------- Mobile Menu Sidebar 11--------*/
     
     $('.mobile-menu-open-11').on('click', function(){
@@ -785,77 +717,6 @@ $(function() {
 	});
     
     /*=====  End of Product Size Active ======*/
-    
-    
-    /*=============================================
-    =                 Price Range                 =
-    =============================================*/
-
-     /*-------- Slider Range --------*/
-
-	$( "#slider-range" ).slider({
-        range: true,
-        min: 0,
-        max: 2000,
-        values: [ 300, 1200 ],
-        slide: function( event, ui ) {
-            $( "#minAmount" ).val( "$" + ui.values[ 0 ] );
-            $( "#maxAmount" ).val( "$" + ui.values[ 1 ] );
-        }
-    });
-
-    $( "#minAmount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) );
-    $( "#maxAmount" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ) );
-
-
-    /*-------- Slider Range 2 --------*/
-
-	$( "#slider-range2" ).slider({
-        range: true,
-        min: 0,
-        max: 2000,
-        values: [ 300, 1200 ],
-        slide: function( event, ui ) {
-            $( "#minAmount2" ).val( "$" + ui.values[ 0 ] );
-            $( "#maxAmount2" ).val( "$" + ui.values[ 1 ] );
-        }
-    });
-    $( "#minAmount2" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) );
-    $( "#maxAmount2" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ) );
-
-
-    /*-------- Slider Range Dark --------*/
-
-    $( "#slider-range-dark" ).slider({
-        range: true,
-        min: 0,
-        max: 2000,
-        values: [ 300, 1200 ],
-        slide: function( event, ui ) {
-            $( "#minAmountDark" ).val( "$" + ui.values[ 0 ] );
-            $( "#maxAmountDark" ).val( "$" + ui.values[ 1 ] );
-        }
-    });
-    $( "#minAmountDark" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) );
-    $( "#maxAmountDark" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ) );
-
-
-    /*-------- Slider Range Dark 2 --------*/
-
-    $( "#slider-range-dark2" ).slider({
-        range: true,
-        min: 0,
-        max: 2000,
-        values: [ 300, 1200 ],
-        slide: function( event, ui ) {
-            $( "#minAmountDark2" ).val( "$" + ui.values[ 0 ] );
-            $( "#maxAmountDark2" ).val( "$" + ui.values[ 1 ] );
-        }
-    });
-    $( "#minAmountDark2" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) );
-    $( "#maxAmountDark2" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ) );
-    
-    /*=====  End of Price Range  ======*/
 
 
     /*=============================================
@@ -1256,16 +1117,4 @@ $(function() {
             },
         ]
     });
-    
-    
-    
-    
-    
-    
-    
 });
-
-
-
-
-

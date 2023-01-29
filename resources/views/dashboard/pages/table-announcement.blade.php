@@ -25,7 +25,7 @@
             <td>{{ $announcement->header }}</td>
             <td>{{ $announcement->sub_header }}</td>
             <td> 
-              <img src="{{asset ($announcement->image) }}" width="70px" height="70px" alt="image">
+              <img src="{{asset ('images/'.$announcement->image) }}" width="70px" height="70px" alt="image">
             </td>
             <td>{{ $announcement->description }}</td>
             <td>{{ $announcement->user_id }}</td>

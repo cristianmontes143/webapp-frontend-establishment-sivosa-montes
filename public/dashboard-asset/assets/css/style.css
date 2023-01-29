@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
-  background-color: #828282;
+  background-color: #171717;
 }
 
 body {
@@ -45,7 +45,7 @@ h6 {
   margin-top: 60px;
   padding: 20px 30px;
   transition: all 0.3s;
-  background-color: #828282;
+  background-color: #171717;
   background-size: cover;
 }
 
@@ -260,13 +260,6 @@ h6 {
   background-color: rgba(255, 238, 0, 0.796);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
-.top-selling-table{
-  padding-top: 20px;
-}
-
-/* .login-card{
-  opacity: 0.33;
-} */
 
 .card-header,
 .card-footer {
@@ -412,16 +405,11 @@ h6 {
 --------------------------------------------------------------*/
 .logo {
   line-height: 1;
-}
-
-@media (min-width: 1200px) {
-  .logo {
-    width: 280px;
-  }
+  width: 100%;
 }
 
 .logo img {
-  max-width: 100%;
+  width: 100%;
   margin-right: 6px;
 }
 
@@ -649,6 +637,16 @@ h6 {
 
 .header-nav .profile .dropdown-item:hover {
   background-color: #f6f9ff;
+}
+
+.nav-item {
+  margin-right: 5px;
+  width: 100%;
+}
+
+.nav-item button span {
+  
+  font-size: 12px;
 }
 
 /*--------------------------------------------------------------
@@ -1003,22 +1001,6 @@ h6 {
   font-size: 14px;
 }
 
-.dashboard .top-selling .table thead {
-  background: #f6f6fe;
-}
-
-.dashboard .top-selling .table thead th {
-  border: 0;
-}
-
-.dashboard .top-selling .table tbody td {
-  vertical-align: middle;
-}
-
-.dashboard .top-selling img {
-  border-radius: 5px;
-  max-width: 60px;
-}
 
 /*--------------------------------------------------------------
 # Icons list page
@@ -1304,3 +1286,82 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
+/*--------------------------------------------------------------
+# @Media
+--------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .logo {
+    max-width: 350px;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .logo {
+    max-width: 300px;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    max-width: 270px;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item button {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .logo {
+    max-width: 270px;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item button {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .logo {
+    max-width: 270px;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item button {
+    width: 100%;
+  }
+}
+
