@@ -9,7 +9,6 @@ class AnnouncementController extends Controller
 {
     public function index() {
         $announcements = Announcement::paginate();
-        // return new AnnouncementCollection(announcement::paginate());
         return view('dashboard.pages.table-announcement', ['data' => $announcements]);
     }
 
@@ -26,8 +25,7 @@ class AnnouncementController extends Controller
         $request->validate([
             'header' => ['required', 'string', 'max:255'],
             'sub_header' => ['required', 'string', 'max:255'],  
-            // 'image' => ['required|image|mimes:jpg,png,jpeg,gif,svg|max:2048'],      
-        ]); 
+        ]);
         $imageName = time().'.'.$request->image->extension();  
         $request->image->move(public_path('images'), $imageName);
         // $image = $request->file('image')->store('image', 'public');

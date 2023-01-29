@@ -2,12 +2,12 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
 
-    <div class="d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center justify-content-between header-logo-sidebar">
+      <i class="bi bi-list toggle-sidebar-btn"></i>
       <a href="http://webapp-frontend-establishment-sivosa-montes.test/dashboard" class="logo d-flex align-items-center">
         <img src="{{asset('dashboard-asset/assets/img/Logo_L_vector.png')}} " alt="">
         {{-- <span class="d-none d-lg-block">Octagon</span> --}}
       </a>
-      <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
 
     <div class="search-bar">
@@ -30,7 +30,7 @@
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
             <img src="{{asset('dashboard-asset/assets/img/Logo_Symbol_L.jpg')}} " alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2 text-white">Cristian Montes</span>
+            <span class="d-none d-md-block ps-2 text-white">Cristian Montes</span>
           </a>
           <!-- End Profile Iamge Icon -->
 
@@ -49,6 +49,6 @@
       </ul>
     </nav>
     <!-- End Icons Navigation -->
-    
+
   </header>
   <!-- End Header -->

@@ -3,28 +3,6 @@
         <div class="header-big border border-warning border-3">
             <div class="header-items-active">
 
-                {{-- <div class="single-header-item bg_cover h-50 d-block w-20">
-                    <img src="{{asset('landing-page-asset/Announcement-Pics/Announcement-newyr-2_960x480.png')}}" alt="#">
-                    <div class="header-item-content">
-                        <h3 class="title">Ring in the new year with amazing deals on all your favorite products!</h3>
-                        <a href="javascript:void(0)" class="link">Shop Now!!</a>
-                    </div>
-                </div>
-                <div class="single-header-item bg_cover h-50 d-block w-20">
-                    <img src="{{asset('landing-page-asset/Announcement-Pics/Announcement-valentines_960x480.png')}}" alt="">
-                    <div class="header-item-content">
-                        <h3 class="title">Show your love with sweet discounts on the perfect gifts for your Valentine!</h3>
-                        <a href="javascript:void(0)" class="link">Shop Now!!</a>
-                    </div>
-                </div>
-                <div class="single-header-item bg_cover h-50 d-block w-20">
-                    <img src="{{asset('landing-page-asset/Announcement-Pics/Announcement-Sale-2_960x480.png')}}" alt="">
-                    <div class="header-item-content">
-                        <h3 class="title">Don't miss out on the amazing discounts on our featured items!</h3>
-                        <a href="javascript:void(0)" class="link">Shop Now!!</a>
-                    </div>
-                </div> --}}
-
                 @foreach($announcements as $announcement)
                     <div class="single-header-item bg_cover h-50 d-block w-20">
                         <img src="{{ asset('images/'. $announcement->image) }}" alt="Gwapo">
@@ -36,6 +14,7 @@
                         </div>
                     </div>
                 @endforeach
+                
             </div>
         </div>
 
