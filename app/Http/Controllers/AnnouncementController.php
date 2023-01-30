@@ -52,8 +52,6 @@ class AnnouncementController extends Controller
             'image' => 'Update Image',
             'description' => 'Update Description',
             'announcement' => $announcements,
-
-
         ]);
     }
     public function update(Request $request, $id) {

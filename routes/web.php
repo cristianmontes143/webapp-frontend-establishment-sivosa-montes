@@ -42,14 +42,6 @@ Route::prefix('/dashboard')->group(function () {
 
 })->middleware(['auth', 'verified']);
 
-
-//  Route::get('/announcement', [AnnouncementController::class, 'index'])->Route::middleware(['auth', 'verified'])->name(announcement);
-
-
-
-
-
-
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

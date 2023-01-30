@@ -5,22 +5,22 @@
 @include('dashboard.dashboardpart.sidebar')
 <div class="card-body">
     <h6 class="card-title">Announcement</h6>
-    <table class="table table-warning table-striped ">
+    <table class="table">
       <thead>
         <tr>
-          <th scope="col">Id</th>
-          <th scope="col">Header</th>
-          <th scope="col">Sub Header</th>
-          <th scope="col">image</th>
-          <th scope="col">description</th>
-          <th scope="col">user_id</th>
-          <th scope="col">actions</th>
-          <th scope = "col"> <a href="{{route('dashboard.addannouncement')}} " type="button" class="btn btn-info">Add</a></th>
+          <th class="table-header" scope="col">Id</th>
+          <th class="table-header" scope="col">Header</th>
+          <th class="table-header" scope="col">Sub Header</th>
+          <th class="table-header" scope="col">image</th>
+          <th class="table-header" scope="col">description</th>
+          <th class="table-header" scope="col">user id</th>
+          <th class="table-header" scope="col">actions</th>
+          <th class="table-header" scope = "col"> <a href="{{route('dashboard.addannouncement')}} " type="button" class="btn btn-info">Add</a></th>
         </tr>
       </thead>
       <tbody>
         @foreach ($data as $announcement)
-        <tr>
+        <tr class="table-content">
             <th>{{ $announcement->id }}</th>
             <td>{{ $announcement->header }}</td>
             <td>{{ $announcement->sub_header }}</td>
@@ -29,9 +29,9 @@
             </td>
             <td>{{ $announcement->description }}</td>
             <td>{{ $announcement->user_id }}</td>
-            <th scope = "col"> <a href="{{ route('dashboard.announcementupdate', ['id' => $announcement->id]) }} "
+            <th class="table-header" scope = "col"> <a href="{{ route('dashboard.announcementupdate', ['id' => $announcement->id]) }} "
                  type="button" class="btn btn-success">Update</a></th>
-            <th scope = "col"> <a href="{{ route('dashboard.announcementdelete', ['id' => $announcement->id]) }} "
+            <th class="table-header" scope = "col"> <a href="{{ route('dashboard.announcementdelete', ['id' => $announcement->id]) }} "
                   type="button" class="btn btn-danger">Delete</a></th>
 
         </tr>

@@ -259,7 +259,7 @@ h6 {
   padding-top: 7px;
   border: none;
   border-radius: 2px;
-  background-color: #828282a9;
+  background-color: #828282ca;
   box-shadow: 0px 0 30px rgb(1 41 112 / 10%);
 }
 
@@ -267,8 +267,17 @@ h6 {
   margin-bottom: 30px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(255, 238, 0, 0.796);
+  background-color: #FFFF8A;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.table-header{
+  text-transform: uppercase;
+}
+
+.table-content:hover{
+  background-color: #FF5C5C;
+  transition: 0.8s;
 }
 
 .card-header,
@@ -280,10 +289,19 @@ h6 {
 }
 
 .card-title {
-  padding: 20px 0 15px 0;
+  padding: 20px 0 10px 0;
   font-size: 18px;
-  font-weight: 500;
-  color: #000000;
+  font-weight: 600;
+  color: #FFFF00;
+  opacity: 1 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-title-login {
+  padding: 20px 0 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
   opacity: 1 !important;
   font-family: "Poppins", sans-serif;
 }
@@ -837,6 +855,7 @@ h6 {
   color: #d40032;
   background: #f6f9ff;
   padding: 20px;
+  transition: 0.8s;
 }
 
 .sidebar-nav .nav-link:hover i {
@@ -1439,4 +1458,3 @@ h6 {
     width: 100%;
   }
 }
-

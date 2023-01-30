@@ -4,37 +4,32 @@
 @include('dashboard.dashboardpart.navigation')
 @include('dashboard.dashboardpart.sidebar')
 
-<div>
-  <table class="table table-warning table-striped ">
+<div class="card-body">
+  <h6 class="card-title">Users</h6>
+  <table class="table">
       <thead>
         <tr>
-          <th scope="col">Id</th>
-          <th scope="col">Name</th>
-          <th scope="col">Email</th>
-          <th scope="col">Action</th>
-          <th scope = "col"> <a href="{{route('dashboard.adduser')}} " type="button" class="btn btn-info">Add</a></th>
+          <th class="table-header" scope="col">Id</th>
+          <th class="table-header" scope="col">Name</th>
+          <th class="table-header" scope="col">Email</th>
+          <th class="table-header" scope="col">Action</th>
+          <th class="table-header" scope = "col"> <a href="{{route('dashboard.adduser')}} " type="button" class="btn btn-info">Add</a></th>
         </tr>
       </thead>
 
       <tbody>
         @foreach ($data as $user)
-        <tr>
+        <tr class="table-content">
             <th>{{ $user->id }}</th>
             <td>{{ $user->name }}</td>
             <td>{{ $user->email }}</td>
-            <th scope = "col"> <a href="{{ route('dashboard.userupdate', ['id' => $user->id]) }} "
+            <th class="table-header" scope = "col"> <a href="{{ route('dashboard.userupdate', ['id' => $user->id]) }} "
                 type="button" class="btn btn-success">Update</a></th>
-            <th scope = "col"> <a href="{{ route('dashboard.userdelete', ['id' => $user->id]) }} "
+            <th class="table-header" scope = "col"> <a href="{{ route('dashboard.userdelete', ['id' => $user->id]) }} "
                   type="button" class="btn btn-danger">Delete</a></th>
-
         </tr>
-            
         @endforeach
-      </tbody>
-   
+      </tbody>  
     </table>
-
-
   </div>
-
   @stop

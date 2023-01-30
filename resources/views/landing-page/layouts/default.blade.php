@@ -44,6 +44,7 @@
     
         <!--====== Style CSS ======-->
         <link rel="stylesheet" href="{{asset('landing-page-asset/Css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('landing-page-asset/Css/nav-overlay.css')}}">
     
     </head>
 <body>

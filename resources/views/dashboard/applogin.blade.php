@@ -1,5 +1,5 @@
 @extends('dashboard.pages.main-dashboard')
-<section class=" section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+{{-- <section class=" section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
     <div class="container">
       <div class="row justify-content-center">
         <div class="login-card col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
@@ -13,7 +13,7 @@
               
               <div class="pt-4 pb-2">
                 <div class="exit position-absolute top-0 end-0 pe-3 pt-3 fs-3"><a href=" {{asset('http://webapp-frontend-establishment-sivosa-montes.test/#')}} " class="x"><i class="bi bi-x-octagon"></i></a></div>
-                <h5 class="card-title text-center pb-0 fs-4">Login to Your Octagon Account</h5>
+                <h5 class="card-title-login text-center pb-0 fs-4">Login to Your Octagon Account</h5>
               </div>
               <form method="POST" class="text-field-login row g-3 needs-validation" action="{{route('login')}}">
                 @csrf
@@ -52,6 +52,6 @@
         </div>
       </div>
     </div>
-  </section>
+</section> --}}
 </div>
 </main><!-- End #main -->
