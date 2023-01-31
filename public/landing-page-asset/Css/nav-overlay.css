@@ -47,6 +47,7 @@
   }
 
   .container-login{
+    width: 100%;
     position: absolute;
     top: 20px;
   }

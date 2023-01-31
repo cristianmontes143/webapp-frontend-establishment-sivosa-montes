@@ -7,10 +7,10 @@
                     <div class="single-header-item bg_cover h-50 d-block w-20">
                         <img src="{{ asset('images/'. $announcement->image) }}" alt="Gwapo">
 
-                        <div class="header-item-content">
+                        <div class="header-item-content col">
                             <h3 class="title">{{ $announcement->header }}</h3>
-                            <p class="subheader">{{ $announcement->sub_header }}</p>
-                            <p-1 class="description">{{ $announcement->description }}</p-1>
+                            <p class="description">{{ $announcement->description }}</p>
+                            <button type="button" class="btn btn-outline-danger">Learn More</button>
                         </div>
                     </div>
                 @endforeach

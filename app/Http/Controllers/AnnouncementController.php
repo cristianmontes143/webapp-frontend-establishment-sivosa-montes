@@ -8,7 +8,7 @@ use App\Models\Announcement;
 class AnnouncementController extends Controller
 {
     public function index() {
-        $announcements = Announcement::paginate();
+        $announcements = Announcement::all();
         return view('dashboard.pages.table-announcement', ['data' => $announcements]);
     }
 
@@ -28,7 +28,6 @@ class AnnouncementController extends Controller
         ]);
         $imageName = time().'.'.$request->image->extension();  
         $request->image->move(public_path('images'), $imageName);
-        // $image = $request->file('image')->store('image', 'public');
 
         Announcement::create([
             'header' => $request->header,
