@@ -24,9 +24,12 @@
         <div class="invalid-feedback">Please, fill up sub_header!</div>
       </div>
       <div class="mb-3">
+        
         <label for="formFile"  class="form-label">Image</label>
-        <input value= "{{$announcement->image }}" class="form-control"  type="file" 
-          id="formFile" name ="image"  required>
+        <input type="file" value="{{$announcement -> image}}" name="image" class="form-control" value="{{$announcement -> Image}}" alt="#" disabled/>
+        <img src="{{ asset('images/'. $announcement->image) }}" width="100" class="update-image">
+        <input type="hidden" name="hidden_image" value="{{$announcement -> image}}">
+
       </div>
       <div class="form-floating">
         <textarea value= "{{$announcement->description }}" class="form-control"  placeholder="Leave a comment here" 

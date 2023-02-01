@@ -55,22 +55,33 @@ class AnnouncementController extends Controller
     }
     public function update(Request $request, $id) {
         $announcements = Announcement::find($id);
+        if ($request->hasFile('image') && $request->file('image')->isValid()  ) {
+            $image = $request->file('image');
+            $imageName = time().'.'.$image->extension();
+            $image->storeAs('images', $imageName);
+        } else {
+            $imageName = $announcements->image;
+        }
+        $announcements->update([
+            'header' => $request->header,
+            'sub_header' => $request->sub_header,
+            'image' => $imageName,
+            'description' => $request->description,
 
-        $announcements->update($request->all());
-
-        session()->flash('status', 'Announcement Updated');
+        ]);
         return redirect('dashboard/announcement'); 
-
     }
+
+
+
     public function delete($id) {
-        $announcements = Announcement::find($id);
+        $announcements =Announcement::find($id);
         return view('dashboard.announcement.delete', [
             
             'announcement' => $announcements,
-
-
         ]);
     }
+
 
     public function destroy($id)
     {

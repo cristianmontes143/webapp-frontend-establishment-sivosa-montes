@@ -92,18 +92,17 @@
                                                       </div><!-- End Logo -->
                                                       <div class="card mb-3">
                                                         <div class="card-body">
-                                                          
                                                           <div class="pt-4 pb-2">
                                                             <h5 class="card-title-login text-center pb-0 fs-4">Login to Your Octagon Account</h5>
                                                           </div>
                                                           <form method="POST" class="text-field-login row g-3 needs-validation" action="{{route('login')}}">
                                                             @csrf
                                                             <div class="col-12">
-                                                              <label for="yourUsername" class="form-label text-dark">Username</label>
+                                                              {{-- <label for="yourUsername" class="form-label text-dark">Username</label> --}}
                                                               <label for="email" class="form-label text-dark">Username</label>
                                                               <div class="input-group has-validation">
                                                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                                                <input type="text" name="email" class="form-control" id="yourUsername" required>
+                                                                {{-- <input type="text" name="email" class="form-control" id="yourUsername" required> --}}
                                                                 <input type="text" name="email" class="form-control" id="email" required>
                                                                 <div class="invalid-feedback">Please enter your username.</div>
                                                               </div>
@@ -122,9 +121,6 @@
                                                             <div class="col-12">
                                                               <button class="btn btn-danger w-100" type="submit">Login</button>
                                                               
-                                                            </div>
-                                                            <div class="col-12">
-                                                              <p class="small mb-0 text-dark">Don't have account? <p class="small mb-0 text-white" href="pages-register.htm">Create an account</p></p>
                                                             </div>
                                                           </form>
                                             

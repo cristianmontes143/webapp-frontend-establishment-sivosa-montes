@@ -5,7 +5,7 @@
 
                 @foreach($announcements as $announcement)
                     <div class="single-header-item bg_cover h-50 d-block w-20">
-                        <img src="{{ asset('images/'. $announcement->image) }}" alt="Gwapo">
+                        <img src="{{ asset('images/'. $announcement->image) }}" alt="#">
 
                         <div class="header-item-content col">
                             <h3 class="title">{{ $announcement->header }}</h3>
