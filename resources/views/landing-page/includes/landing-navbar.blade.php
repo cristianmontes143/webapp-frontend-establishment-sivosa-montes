@@ -96,14 +96,26 @@
                                                           <div class="pt-4 pb-2">
                                                             <h5 class="card-title-login text-center pb-0 fs-4">Login to Your Octagon Account</h5>
                                                           </div>
+                                                          <div class="alert">
+                                                            @error('email')
+                                                              <div class="alert alert-danger" role="alert">
+                                                                {{ $message}}
+                                                              </div>
+                                                            @enderror
+
+                                                            @error('password')
+                                                              <div class="alert alert-danger" role="alert">
+                                                                {{ $message}}
+                                                              </div>
+                                                            @enderror
+                                                          </div>
                                                           <form method="POST" class="text-field-login row g-3 needs-validation" action="{{route('login')}}">
                                                             @csrf
                                                             <div class="col-12">
-                                                              {{-- <label for="yourUsername" class="form-label text-dark">Username</label> --}}
+
                                                               <label for="email" class="form-label text-dark">Username</label>
                                                               <div class="input-group has-validation">
                                                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                                                {{-- <input type="text" name="email" class="form-control" id="yourUsername" required> --}}
                                                                 <input type="text" name="email" class="form-control" id="email" required>
                                                                 <div class="invalid-feedback">Please enter your username.</div>
                                                               </div>
