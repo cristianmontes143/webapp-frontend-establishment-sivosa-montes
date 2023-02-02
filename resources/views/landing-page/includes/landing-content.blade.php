@@ -109,7 +109,7 @@
             </div>
         </div>
 
-        <div class="none">
+        <div class="reveal">
             <div class="owl-carousel owl-theme">
                 <div class="item featured-item-row">
                     <div class="col-lg-6">

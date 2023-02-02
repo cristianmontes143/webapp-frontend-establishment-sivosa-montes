@@ -1,5 +1,5 @@
 <!--====== Map Start ======-->
-<section class="landing-map">
+<section id="map-sect" class="landing-map">
     <div class="map-container align-items-center mx-auto">
         <div class="map-desc">
             <div class="map-title-container mb-10 ms-1">

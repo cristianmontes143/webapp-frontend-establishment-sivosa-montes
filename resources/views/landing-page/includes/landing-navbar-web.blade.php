@@ -23,32 +23,32 @@
                                         <li class="mega-dropdown-list menu-item-has-children menu-item-mobile">
                                             <ul>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#laptop-product">
                                                         <i class="bi bi-laptop"></i>
                                                         Laptop</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html  my-auto">
+                                                    <a href="#pc-product">
                                                         <i class="bi bi-pc-display"></i>
                                                         Computer</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#pc-product">
                                                         <i class="bi bi-motherboard"></i>
                                                         PC Components</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#">
                                                         <i class="bi bi-person-workspace"></i>    
                                                         Gaming Chair</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#peripherals">
                                                         <i class="bi bi-keyboard"></i>
                                                         Peripherals</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#software-products">
                                                         <i class="bi bi-microsoft"></i>
                                                         Software</a>
                                                 </li>
@@ -58,22 +58,22 @@
                                         <li class="mega-dropdown-list menu-item-has-children">
                                             <ul>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#smartphone-tablet">
                                                         <i class="bi bi-phone"></i>
                                                         Smarthphone</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#smartphone-tablet">
                                                         <i class="bi bi-tablet-landscape"></i>
                                                         Tablet</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#peripherals">
                                                         <i class="bi bi-earbuds"></i>
                                                         Phone Accessories</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#networking-products">
                                                         <i class="bi bi-router"></i>
                                                         Networking</a>
                                                 </li>
@@ -83,32 +83,32 @@
                                         <li class="mega-dropdown-list menu-item-has-children">
                                             <ul>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#printer-products">
                                                         <i class="bi bi-printer"></i>
                                                         Printers</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#printer-products">
                                                         <i class="bi bi-droplet-half"></i>
                                                         Inks & Toners</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#">
                                                         <i class="bi bi-usb-mini"></i>
                                                         Laminator</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#">
                                                         <i class="bi bi-usb-drive"></i>
                                                         Storage</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#">
                                                         <i class="bi bi-trash"></i>
                                                         Cleaning Kit</a>
                                                 </li>
                                                 <li>
-                                                    <a href="category.html">
+                                                    <a href="#">
                                                         <i class="bi bi-webcam"></i>
                                                         Security & Survillance</a>
                                                 </li>
@@ -125,17 +125,17 @@
                         <!-- sub mega dropdown Ends -->
 
                     </li>
-                    <li><a class="main-menu-choose" href="category.html">Home</a></li>
-                    <li><a class="main-menu-choose" href="category.html">Promotions</a></li>
-                    <li><a class="main-menu-choose" href="category.html">Support</a></li>
+                    <li><a class="main-menu-choose" href="#">Home</a></li>
+                    <li><a class="main-menu-choose" href="#">Promotions</a></li>
+                    <li><a class="main-menu-choose" href="#">Support</a></li>
                     <li class="menu-item-has-children">
                         <a class="main-menu-choose" href="#">Pages</a>
                         <!-- sub menu Start -->
                         <ul class="sub-menu">
-                            <li><a href="about-page.html">About Page</a></li>
-                            <li><a href="contact-page.html">Contact Page</a></li>
-                            <li><a href="product-details-page.html">Product Details Page</a></li>
-                            <li><a href="signup-page.html">Shop Page</a></li>
+                            <li><a href="#Footer-sect">About Page</a></li>
+                            <li><a href="#Footer-sect">Contact Page</a></li>
+                            <li><a href="#product">Product Details Page</a></li>
+                            <li><a href="#product">Shop Page</a></li>
                         </ul>
                         <!-- sub menu Ends -->
                     </li>

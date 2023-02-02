@@ -21,7 +21,7 @@
     <!--====== Preloader Part Ends ======-->
 
     <!--====== Navbar Style 7 Part Start ======-->
-    <div class="navigation">
+    <div id="navigation" class="navigation">
         <header class="navbar-style-7 position-relative">
             <div class="container">
 
@@ -43,8 +43,9 @@
                             <!-- navbar top left Start -->
                             <div class="navbar-top-left">
                                 <ul class="navbar-top-link">
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#Footer-sect">About</a></li>
+                                    <li><a href="#Footer-sect">Contact</a></li>
+                                    <li><a href="#map-sect">Find Us</a></li>
                                 </ul>
                             </div>
                             <!-- navbar top left Ends -->

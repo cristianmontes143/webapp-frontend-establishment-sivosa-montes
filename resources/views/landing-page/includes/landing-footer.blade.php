@@ -15,7 +15,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div id="Footer-sect" class="col-lg-3 col-md-3 col-sm-6">
                     <div class="footer-widget">
                         <h5 class="footer-title">Contact Us</h5>
 
@@ -44,12 +44,12 @@
 
                         <ul class="footer-link">
                             <li>
-                                <a href="javascript:void(0)">
+                                <a href="https://www.facebook.com/OctagonComputerSuperstore">
                                     <i class="bi bi-facebook"></i>
                                     Facebook</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">
+                                <a href="https://twitter.com/octagon_ph">
                                     <i class="bi bi-twitter"></i>
                                    Twitter</a>
                             </li>
@@ -68,19 +68,19 @@
 
                         <ul class="footer-link">
                             <li>
-                                <a href="javascript:void(0)">Home</a>
+                                <a href="#navigation">Home</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">Our Stores</a>
+                                <a href="#navigation">Our Stores</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">Promotions</a>
+                                <a href="#navigation">Promotions</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">Support</a>
+                                <a href="#navigation">Support</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">Downloads</a>
+                                <a href="#navigation">Downloads</a>
                             </li>
                         </ul>
                     </div>
