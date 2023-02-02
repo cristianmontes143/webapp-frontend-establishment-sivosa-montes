@@ -17,7 +17,7 @@ class AnnouncementResource extends JsonResource
         return[
         'id' => $this->id,
         'header' => $this->header,
-        'subheader' => $this->sub_header,
+        'subHeader' => $this->sub_header,
         'image' => $this->image,
         'description' => $this->description,
         'userId' => $this->user_id,

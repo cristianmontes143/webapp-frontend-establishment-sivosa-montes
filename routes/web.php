@@ -1,8 +1,12 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
-
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\AnnouncementController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +18,37 @@ use App\Http\Controllers\PagesController;
 |
 */
 
-
-
-
 Route::resource('/', PagesController::class);
+
+Route::prefix('/dashboard')->group(function () {
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/announcement', [AnnouncementController::class, 'index'])->name('dashboard.announcement');
+    Route::get('/announcement/add', [AnnouncementController::class, 'form'])->name('dashboard.addannouncement');
+    Route::post('/announcement/add', [AnnouncementController::class, 'store'])->name('dashboard.announcementadd');
+    Route::get('/announcement/update/{id}', [AnnouncementController::class, 'show'])->name('dashboard.announcementupdate');
+    Route::post('/announcement/update/{id}', [AnnouncementController::class, 'update'])->name('dashboard.update');
+    Route::get('/announcement/delete/{id}', [AnnouncementController::class, 'delete'])->name('dashboard.announcementdelete');
+    Route::post('/announcement/delete/{id}', [AnnouncementController::class, 'destroy'])->name('dashboard.delete');
+})->middleware(['auth', 'verified']);
+
+Route::prefix('/dashboard')->group(function () {
+    Route::get('/user', [UserController::class, 'index'])->name('dashboard.user');
+    Route::get('/user/add', [UserController::class, 'form'])->name('dashboard.adduser');
+    Route::post('/user/add', [UserController::class, 'store'])->name('dashboard.useradd');
+    Route::get('/user/update/{id}', [UserController::class, 'show'])->name('dashboard.userupdate');
+    Route::post('/user/update/{id}', [UserController::class, 'update'])->name('dashboard.updateuser');
+    Route::get('/user/delete/{id}', [UserController::class, 'delete'])->name('dashboard.userdelete');
+    Route::post('/user/delete/{id}', [UserController::class, 'destroy'])->name('dashboard.deleteuser');
+
+})->middleware(['auth', 'verified']);
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+Route::get('/register', function(){
+    return view('dashboard.appregister');
+});
+require __DIR__.'/auth.php';

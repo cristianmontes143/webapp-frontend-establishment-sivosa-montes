@@ -6,7 +6,7 @@
     
         <!--====== Title ======-->
         <title>Octagon Computer Superstore</title>
-        <link rel="icon" href="{{asset('landing_page_asset/Logo_Symbol_L.jpg')}}">
+        <link rel="icon" href="{{asset('../landing-page-asset/Logo_Symbol_L.jpg')}}">
     
         <meta name="description" content="">
         <meta name="author" content="Website for ITE18">
@@ -44,6 +44,7 @@
     
         <!--====== Style CSS ======-->
         <link rel="stylesheet" href="{{asset('landing-page-asset/Css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('landing-page-asset/Css/nav-overlay.css')}}">
     
     </head>
 <body>
@@ -80,6 +81,7 @@
 
     <!--====== Main js ======-->
     <script src="{{asset('landing-page-asset/Js/main.js')}}"></script>
+    <script src="{{asset('landing-page-asset/Js/custom.js')}}"></script>
 
 
 </body>
