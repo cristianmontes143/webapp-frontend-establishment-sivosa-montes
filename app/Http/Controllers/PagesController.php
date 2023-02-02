@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Announcement;
 
 class PagesController extends Controller
 {
@@ -13,7 +14,8 @@ class PagesController extends Controller
      */
     public function index()
     {
-        return view('landing-page.pages.main-landing-page');
+        $announcements = Announcement::all();
+        return view('landing-page.pages.main-landing-page', ['announcements' => $announcements]);
     }
 
     /**

@@ -1,6 +1,9 @@
     <!--====== Preloader Part Start ======-->
     <div class="preloader">
         <div class="loader">
+            <div class="logo">
+                <img src="{{asset('landing-page-asset/Logo_L_vector.png')}}" alt="">
+            </div>
             <div class="ytp-spinner">
                 <div class="ytp-spinner-container">
                     <div class="ytp-spinner-rotator">
@@ -18,7 +21,7 @@
     <!--====== Preloader Part Ends ======-->
 
     <!--====== Navbar Style 7 Part Start ======-->
-    <div class="navigation">
+    <div id="navigation" class="navigation">
         <header class="navbar-style-7 position-relative">
             <div class="container">
 
@@ -40,8 +43,9 @@
                             <!-- navbar top left Start -->
                             <div class="navbar-top-left">
                                 <ul class="navbar-top-link">
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#Footer-sect">About</a></li>
+                                    <li><a href="#Footer-sect">Contact</a></li>
+                                    <li><a href="#map-sect">Find Us</a></li>
                                 </ul>
                             </div>
                             <!-- navbar top left Ends -->
@@ -68,6 +72,81 @@
                                             <option value="5">हिन्दी</option>
                                             <option value="6">বাংলা</option>
                                         </select>
+                                    </li>
+                                    <li>
+                                        <!-- The overlay -->
+                                        <section id="myNav" class="overlay">
+                                            <!-- Button to close the overlay navigation -->
+                                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                                <i class="bi bi-x-octagon"></i>                                           
+                                            </a>
+
+                                            <!-- Overlay content -->
+                                            <div class="overlay-content section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+                                                <div class="container-login">
+                                                  <div class="row justify-content-center">
+                                                    <div class="login-card col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                                                      <div class="d-flex justify-content-center py-4">
+                                                        <a href="index.html" class="logo d-flex align-items-center w-auto">
+                                                          <img src=" " alt="">
+                                                        </a>
+                                                      </div><!-- End Logo -->
+                                                      <div class="card mb-3">
+                                                        <div class="card-body">
+                                                          <div class="pt-4 pb-2">
+                                                            <h5 class="card-title-login text-center pb-0 fs-4">Login to Your Octagon Account</h5>
+                                                          </div>
+                                                          <div class="alert">
+                                                            @error('email')
+                                                              <div class="alert alert-danger" role="alert">
+                                                                {{ $message}}
+                                                              </div>
+                                                            @enderror
+
+                                                            @error('password')
+                                                              <div class="alert alert-danger" role="alert">
+                                                                {{ $message}}
+                                                              </div>
+                                                            @enderror
+                                                          </div>
+                                                          <form method="POST" class="text-field-login row g-3 needs-validation" action="{{route('login')}}">
+                                                            @csrf
+                                                            <div class="col-12">
+
+                                                              <label for="email" class="form-label text-dark">Username</label>
+                                                              <div class="input-group has-validation">
+                                                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                                                <input type="text" name="email" class="form-control" id="email" required>
+                                                                <div class="invalid-feedback">Please enter your username.</div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                              <label for="yourPassword" class="form-label text-dark">Password</label>
+                                                              <input type="password" name="password" class="form-control" id="yourPassword" required>
+                                                              <div class="invalid-feedback">Please enter your password!</div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                              <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
+                                                                <label class="form-check-label text-dark" for="rememberMe">Remember me</label>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                              <button class="btn btn-danger w-100" type="submit">Login</button>
+                                                              
+                                                            </div>
+                                                          </form>
+                                            
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                            <!-- Use any element to open/show the overlay navigation menu -->
+                                            {{-- <span onclick="openNav()">open</span> --}}
+                                        <button onclick="openNav()" type="button" class="btn btn-warning" >Login</button>
                                     </li>
                                 </ul>
                             </div>
